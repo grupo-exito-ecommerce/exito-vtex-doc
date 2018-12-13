@@ -40,4 +40,5 @@ Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn
  hello react
  dreamstore getting-started
 </code></pre>
+<p>puede encontrar un proyecto de inicio de React+Typescript+Vtex en el siguiente link:</p>
 
