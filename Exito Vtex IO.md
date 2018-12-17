@@ -16,12 +16,14 @@
 <li><a href="https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify">Beautify</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=steoates.autoimport">Auto Import</a></li>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">EsLint</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens">Version Lens</a></li>
 </ul>
 </li>
 <li><a href="https://github.com/facebook/create-react-app">Create React App</a></li>
 <li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a></li>
 <li><a href="http://cmder.net/">CMDER</a> Terminal Para windows</li>
 <li><a href="https://www.iterm2.com/">Iterm2</a> Terminal para Mac</li>
+<li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a></li>
 </ol>
 <h2 id="guías">Guías</h2>
 <h4 id="cursos-para-iniciar">Cursos para iniciar</h4>
