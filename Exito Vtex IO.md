@@ -21,6 +21,7 @@
 </li>
 <li><a href="https://github.com/facebook/create-react-app">Create React App</a></li>
 <li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a></li>
+<li><a href="https://www.npmjs.com/package/exito-cli">Exito Cli</a></li>
 <li><a href="http://cmder.net/">CMDER</a> Terminal Para windows</li>
 <li><a href="https://www.iterm2.com/">Iterm2</a> Terminal para Mac</li>
 <li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a></li>
