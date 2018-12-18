@@ -44,4 +44,33 @@ Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn
  dreamstore getting-started
 </code></pre>
 <p>puede encontrar un proyecto de inicio de React+Typescript+Vtex en el siguiente link:</p>
+<h2 id="trabajando-con-vtexreact">Trabajando con Vtex+React</h2>
+<h4 id="configuración-de-un-componente-editable-en-el-storefront-de-vtex">Configuración de un componente editable en el StoreFront de Vtex</h4>
+<p>para la configuración necesaria para el storefront se necesitan tres métodos dentro de nuestro componente:</p>
+<ol>
+<li><em>getSchema</em> : Define los diferentes atributos que se le pasarán al componente por medio de las propiedades.</li>
+</ol>
+<pre class=" language-bash"><code class="prism  language-bash">ClassName.getSchema  <span class="token operator">=</span>  <span class="token punctuation">(</span><span class="token punctuation">)</span>  <span class="token operator">=</span><span class="token operator">&gt;</span>  <span class="token punctuation">{</span>
+	<span class="token keyword">return</span>  <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Ejemplos donde se emplean esquemas en los componentes:</p>
+<ul>
+<li><a href="https://github.com/vtex-apps/carousel">Vtex Carousel</a></li>
+<li><a href="https://github.com/vtex-apps/minicart">Vtex Minicart</a></li>
+</ul>
+<ol start="2">
+<li><em>propTypes</em> : Permite tipar los datos y definir de que tipo son cada uno de los atributos pasados por las props del componente</li>
+</ol>
+<pre class=" language-bash"><code class="prism  language-bash"><span class="token function">import</span>  PropTypes  from  <span class="token string">'prop-types'</span>
+
+ClassName.propTypes  <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="3">
+<li><em>defaultProps</em> : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por los props del componente.</li>
+</ol>
+<pre class=" language-bash"><code class="prism  language-bash">ClassName.defaultProps  <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Estos tres métodos son empleados por Vtex para la creación de las opciones del storeFront</p>
+<p>Ejemplo <a href="https://github.com/Maik3345/exito-vtex-doc/blob/master/components/schema-examples/basic-shecma-js.js">aquí</a></p>
 
