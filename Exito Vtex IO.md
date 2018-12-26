@@ -43,7 +43,13 @@ Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn
  hello react
  dreamstore getting-started
 </code></pre>
-<p>puede encontrar un proyecto de inicio de React+Typescript+Vtex en el siguiente link:</p>
+<h4 id="proyectos-de-inicio-rapido">Proyectos de inicio rapido</h4>
+<p><a href="aws">React+Typescript+Vtex</a></p>
+<h2 id="instalación-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</h2>
+<p>Las siguientes dependencias permiten agregar comportamientos como el admin pages y el storefront en la página de vtex.</p>
+<pre><code>vtex install vtex.pages-editor
+vtex install vtex.admin-pages
+</code></pre>
 <h2 id="trabajando-con-vtexreact">Trabajando con Vtex+React</h2>
 <h4 id="configuración-de-un-componente-editable-en-el-storefront-de-vtex">Configuración de un componente editable en el StoreFront de Vtex</h4>
 <p>para la configuración necesaria para el storefront se necesitan tres métodos dentro de nuestro componente:</p>
