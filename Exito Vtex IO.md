@@ -92,6 +92,11 @@ info:    You can now check your changes before publishing them
 info:    If everything is fine, promote with vtex promote
 </code></pre>
 <ol start="2">
-<li><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes</li>
+<li>
+<p><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes</p>
+</li>
+<li>
+<p><code>vtex promote</code> Promovemos el workspace actual a ser una integración con el master, este paso eliminara el workspace actual.</p>
+</li>
 </ol>
 
