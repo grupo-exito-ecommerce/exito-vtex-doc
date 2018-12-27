@@ -33,6 +33,8 @@ React Curso Completo <a href="https://exito.udemy.com/react-the-complete-guide-i
 Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn/v4/content">Udemy</a></p>
 <h4 id="documentación-para-react">Documentación para React</h4>
 <p>Para realizar la documentación de los componentes en React se empleara el estandar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas tecnicas necesarias para documentar los componentes creados, ademas de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">Ejemplo: react-styleguidist</a></p>
+<h4 id="como-manejar-la-versión-de-los-componentes">Como manejar la versión de los componentes</h4>
+<p>para manejar la versión de nuestros componentes emplearemos la siguiente guía <a href="https://docs.npmjs.com/about-semantic-versioning">semantic-versioning</a></p>
 <h2 id="inicio-con-vtex-cli">Inicio con Vtex Cli</h2>
 <h4 id="creación-de-un-nuevo-componente">Creación de un nuevo componente</h4>
 <p>para la creación de un nuevo proyecto empleamos el comando <code>vtex init</code> el cual nos da las siguientes opciones</p>
@@ -79,4 +81,17 @@ ClassName.propTypes  <span class="token operator">=</span> <span class="token pu
 </code></pre>
 <p>Estos tres métodos son empleados por Vtex para la creación de las opciones del storeFront</p>
 <p>Ejemplo <a href="https://github.com/Maik3345/exito-vtex-doc/blob/master/components/schema-examples/basic-shecma-js.js">aquí</a></p>
+<h1 id="promover-un-workspace-a-producción">Promover un workspace a producción</h1>
+<p>los pasos para promover un workspace son:</p>
+<ol>
+<li><code>vtex workspace production true</code>  Cambiamos el modo producción del workspace a true</li>
+</ol>
+<h4 id="callback">callback</h4>
+<pre class=" language-bash"><code class="prism  language-bash">info:    Workspace dev <span class="token keyword">set</span> to production mode
+info:    You can now check your changes before publishing them
+info:    If everything is fine, promote with vtex promote
+</code></pre>
+<ol start="2">
+<li><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes</li>
+</ol>
 
