@@ -36,7 +36,8 @@
 <p>React Básico <a href="https://www.youtube.com/watch?v=bG53Pw17tog&amp;list=PLeWI3XlFEVOX6jACDygzApsvigQiDrun8">Youtube CodeJobs</a><br>
 React Curso Completo <a href="https://exito.udemy.com/react-the-complete-guide-incl-redux/learn/v4/overview">Udemy</a><br>
 Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn/v4/content">Udemy</a><br>
-Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
+Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a><br>
+<a href="https://github.com/sw-yx/react-typescript-cheatsheet">React typescript tips</a></p>
 <h3 id="como-se-deben-de-documentar-el-código-en-react">Como se deben de documentar el código en React</h3>
 <p>Para realizar la documentación en React se empleara el estándar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas técnicas necesarias para documentar los componentes creados, ademas de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">demo</a></p>
 <h4 id="como-manejar-la-versión-de-los-componentes">Como manejar la versión de los componentes</h4>
@@ -60,7 +61,6 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
 <h3 id="creación-de-un-nuevo-componente-con-exito-cli">Creación de un nuevo componente con Exito cli</h3>
 <p><code>exito init</code></p>
 <pre class=" language-bash"><code class="prism  language-bash"> hello-react-typescript
- hello-react-javascript
 </code></pre>
 <h3 id="instalación-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</h3>
 <p>Las siguientes dependencias permiten agregar comportamientos como el admin pages y el storefront en la página de vtex.</p>
