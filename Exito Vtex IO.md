@@ -5,7 +5,12 @@
 
 <h1 id="éxito-vtex-io">Éxito (Vtex IO)</h1>
 <p>Esta documentación es una guía para el desarrollo con <strong>Vtex IO</strong></p>
-<hr>
+<ul>
+<li><a href="#gu%C3%ADa">Guía</a></li>
+<li><a href="#recursos-necesarios">Recursos necesarios</a></li>
+<li><a href="#vtex-cli">Vtex Cli</a></li>
+<li><a href="#trabajando-con-vtex-y-react">Trabajando con Vtex + React</a></li>
+</ul>
 <h2 id="recursos-necesarios">Recursos necesarios</h2>
 <ol>
 <li><a href="https://nodejs.org/es/">Node js</a> ó <a href="https://yarnpkg.com/en/">Yarn</a></li>
@@ -26,7 +31,7 @@
 <li><a href="https://www.iterm2.com/">Iterm2</a> Terminal para Mac</li>
 <li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a></li>
 </ol>
-<h2 id="guías">Guías</h2>
+<h2 id="guía">Guía</h2>
 <h4 id="cursos-para-iniciar">Cursos para iniciar</h4>
 <p>React Básico <a href="https://www.youtube.com/watch?v=bG53Pw17tog&amp;list=PLeWI3XlFEVOX6jACDygzApsvigQiDrun8">Youtube CodeJobs</a><br>
 React Curso Completo <a href="https://exito.udemy.com/react-the-complete-guide-incl-redux/learn/v4/overview">Udemy</a><br>
@@ -36,9 +41,15 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
 <p>Para realizar la documentación en React se empleara el estándar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas técnicas necesarias para documentar los componentes creados, ademas de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">demo</a></p>
 <h4 id="como-manejar-la-versión-de-los-componentes">Como manejar la versión de los componentes</h4>
 <p>para manejar la versión de nuestros componentes emplearemos la siguiente guía <a href="https://docs.npmjs.com/about-semantic-versioning">semantic-versioning</a></p>
-<h2 id="inicio-con-vtex-cli">Inicio con Vtex Cli</h2>
-<h4 id="creación-de-un-nuevo-componente">Creación de un nuevo componente</h4>
-<p>para la creación de un nuevo proyecto empleamos el comando <code>vtex init</code> el cual nos da las siguientes opciones</p>
+<h2 id="vtex-cli">Vtex Cli</h2>
+<ul>
+<li><a href="#creaci%C3%B3n-de-un-nuevo-componente-con-vtex-cli">Creación de un nuevo componente</a></li>
+<li><a href="#instalaci%C3%B3n-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</a></li>
+<li><a href="#creaci%C3%B3n-de-un-nuevo-componente-con-exito-cli">Creación de un nuevo componente con Exito cli</a></li>
+</ul>
+<h3 id="creación-de-un-nuevo-componente-con-vtex-cli">Creación de un nuevo componente con Vtex cli</h3>
+<p>para la creación de un nuevo proyecto empleamos el comando <code>vtex init</code> el cual nos da las siguientes opciones<br>
+<code>vtex init</code></p>
 <pre class=" language-bash"><code class="prism  language-bash"> react getting-started
  graphql getting-started
  react+graphql
@@ -46,15 +57,23 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
  hello react
  dreamstore getting-started
 </code></pre>
-<h4 id="proyectos-de-inicio-rapido">Proyectos de inicio rapido</h4>
-<p><a href="aws">React+Typescript+Vtex</a></p>
-<h2 id="instalación-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</h2>
+<h3 id="creación-de-un-nuevo-componente-con-exito-cli">Creación de un nuevo componente con Exito cli</h3>
+<p><code>exito init</code></p>
+<pre class=" language-bash"><code class="prism  language-bash"> hello-react-typescript
+ hello-react-javascript
+</code></pre>
+<h3 id="instalación-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</h3>
 <p>Las siguientes dependencias permiten agregar comportamientos como el admin pages y el storefront en la página de vtex.</p>
 <pre><code>vtex install vtex.pages-editor
 vtex install vtex.admin-pages
 </code></pre>
-<h2 id="trabajando-con-vtexreact">Trabajando con Vtex+React</h2>
-<h4 id="configuración-de-un-componente-editable-en-el-storefront-de-vtex">Configuración de un componente editable en el StoreFront de Vtex</h4>
+<h2 id="trabajando-con-vtex-y-react">Trabajando con Vtex y React</h2>
+<ul>
+<li><a href="#configuraci%C3%B3n-de-un-componente-editable-en-el-storefront-de-vtex">Configuración para el StoreFront</a></li>
+<li><a href="#promover-un-workspace-a-producci%C3%B3n">Promover workspaces a producción</a></li>
+</ul>
+<hr>
+<h3 id="configuración-de-un-componente-editable-en-el-storefront-de-vtex">Configuración de un componente editable en el StoreFront de Vtex</h3>
 <p>para la configuración necesaria para el storefront se necesitan tres métodos dentro de nuestro componente:</p>
 <ol>
 <li><em>getSchema</em> : Define los diferentes atributos que se le pasarán al componente por medio de las propiedades.</li>
