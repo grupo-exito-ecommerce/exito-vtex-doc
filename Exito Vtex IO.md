@@ -6,15 +6,16 @@
 <h1 id="éxito-vtex-io">Éxito (Vtex IO)</h1>
 <p>Esta documentación es una guía para el desarrollo con <strong>Vtex IO</strong></p>
 <ul>
-<li><a href="#gu%C3%ADa">Guía</a></li>
 <li><a href="#recursos-necesarios">Recursos necesarios</a></li>
+<li><a href="#gu%C3%ADa">Guía</a></li>
 <li><a href="#vtex-cli">Vtex Cli</a></li>
 <li><a href="#trabajando-con-vtex-y-react">Trabajando con Vtex + React</a></li>
 </ul>
 <h2 id="recursos-necesarios">Recursos necesarios</h2>
 <ol>
-<li><a href="https://nodejs.org/es/">Node js</a> ó <a href="https://yarnpkg.com/en/">Yarn</a></li>
-<li><a href="https://code.visualstudio.com/">Visual Studio Code</a><br>
+<li><a href="https://nodejs.org/es/">Node js</a></li>
+<li><a href="https://yarnpkg.com/en/">Yarn</a> Gestor de paquetes de Facebook</li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> Editor<br>
 2.1 Extensiones Básicas:
 <ul>
 <li><a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets">ES7 React/Redux/GraphQL/React-Native snippets</a></li>
@@ -24,12 +25,12 @@
 <li><a href="https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens">Version Lens</a></li>
 </ul>
 </li>
-<li><a href="https://github.com/facebook/create-react-app">Create React App</a></li>
-<li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a></li>
-<li><a href="https://www.npmjs.com/package/exito-cli">Exito Cli</a></li>
+<li><a href="https://github.com/facebook/create-react-app">Create React App</a> Linea de comandos para crear proyecto en react</li>
+<li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a> Linea de comandos para vtex</li>
+<li><a href="https://www.npmjs.com/package/exito-cli">Exito Cli</a> Linea de comandos para éxito</li>
 <li><a href="http://cmder.net/">CMDER</a> Terminal Para windows</li>
 <li><a href="https://www.iterm2.com/">Iterm2</a> Terminal para Mac</li>
-<li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a></li>
+<li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a> Linea de comandos para Amazon</li>
 </ol>
 <h2 id="guía">Guía</h2>
 <h4 id="cursos-para-iniciar">Cursos para iniciar</h4>
