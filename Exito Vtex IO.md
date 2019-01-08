@@ -25,7 +25,8 @@
 <li><a href="https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens">Version Lens</a></li>
 </ul>
 </li>
-<li><a href="https://github.com/facebook/create-react-app">Create React App</a> Linea de comandos para crear proyecto en react</li>
+<li><a href="https://github.com/facebook/create-react-app">Create React App Repo</a></li>
+<li><a href="https://www.npmjs.com/package/create-react-app">Create React App Npm</a></li>
 <li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a> Linea de comandos para vtex</li>
 <li><a href="https://www.npmjs.com/package/exito-cli">Exito Cli</a> Linea de comandos para éxito</li>
 <li><a href="http://cmder.net/">CMDER</a> Terminal Para windows</li>
