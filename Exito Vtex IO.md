@@ -10,6 +10,7 @@
 <li><a href="#gu%C3%ADa">Guía</a></li>
 <li><a href="#vtex-cli">Vtex Cli</a></li>
 <li><a href="#trabajando-con-vtex-y-react">Trabajando con Vtex + React</a></li>
+<li><a href="#lista-de-componentes-actuales">Lista de componentes</a></li>
 </ul>
 <h2 id="recursos-necesarios">Recursos necesarios</h2>
 <ol>
@@ -121,4 +122,26 @@ info:    If everything is fine, promote with vtex promote
 <p><code>vtex promote</code> Promovemos el workspace actual a ser una integración con el master, este paso eliminara el workspace actual.</p>
 </li>
 </ol>
+<h1 id="lista-de-componentes-actuales">Lista de componentes actuales</h1>
+<pre><code>|- exito.vtex-components/
+|- exito.login
+|- exito.product-carousel
+|- exito.minicart
+|- exito.carousel
+|- exito.category-menu
+|- exito.components
+|- exito.footer
+|- exito.header
+|- exito.home-configuration
+|- exito.login
+|- exito.producto
+|- exito.product-details
+|- exito.product-images-list
+|- exito.product-summary
+|- exito.search-result
+|- exito.shelf
+|- exito.store
+|- exito.vtex-components
+| +- ...
+</code></pre>
 
