@@ -65,6 +65,7 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a><br>
 <p><code>exito init</code></p>
 <pre class=" language-bash"><code class="prism  language-bash"> hello-react-typescript
 </code></pre>
+<p><a href="https://github.com/Maik3345/hello-react-ts">hello-react-typescript github</a></p>
 <h3 id="instalación-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</h3>
 <p>Las siguientes dependencias permiten agregar comportamientos como el admin pages y el storefront en la página de vtex.</p>
 <pre><code>vtex install vtex.pages-editor
