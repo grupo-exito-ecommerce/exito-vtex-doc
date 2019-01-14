@@ -41,10 +41,10 @@ React Curso Completo <a href="https://exito.udemy.com/react-the-complete-guide-i
 Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn/v4/content">Udemy</a><br>
 Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a><br>
 <a href="https://github.com/sw-yx/react-typescript-cheatsheet">React typescript tips</a></p>
+<h3 id="como-manejar-la-versión-de-los-componentes-semantic-versioning">Como manejar la versión de los componentes (Semantic versioning)</h3>
+<p>para manejar la versión de nuestros componentes emplearemos la siguiente guía <a href="https://docs.npmjs.com/about-semantic-versioning">semantic-versioning</a></p>
 <h3 id="como-se-deben-de-documentar-el-código-en-react">Como se deben de documentar el código en React</h3>
 <p>Para realizar la documentación en React se empleara el estándar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas técnicas necesarias para documentar los componentes creados, ademas de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">demo</a></p>
-<h4 id="como-manejar-la-versión-de-los-componentes">Como manejar la versión de los componentes</h4>
-<p>para manejar la versión de nuestros componentes emplearemos la siguiente guía <a href="https://docs.npmjs.com/about-semantic-versioning">semantic-versioning</a></p>
 <h2 id="vtex-cli">Vtex Cli</h2>
 <ul>
 <li><a href="#creaci%C3%B3n-de-un-nuevo-componente-con-vtex-cli">Creación de un nuevo componente</a></li>
