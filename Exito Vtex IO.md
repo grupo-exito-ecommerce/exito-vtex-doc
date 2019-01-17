@@ -51,7 +51,7 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a><br>
 <li><a href="http://Changelog.md">Changelog.md</a></li>
 <li><a href="http://Readme.md">Readme.md</a></li>
 </ul>
-<p>Ejemplos para documentar:</p>
+<h3 id="ejemplos-para-documentar">Ejemplos para documentar:</h3>
 <p><a href="https://github.com/Maik3345/exito-vtex-doc/tree/master/CHANGELOG-BASIC.md">Basic Changelog</a><br>
 <a href="https://github.com/Maik3345/exito-vtex-doc/blob/master/README-BASIC.md">Basic Readme</a></p>
 <h2 id="vtex-cli">Vtex Cli</h2>
