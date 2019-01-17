@@ -45,11 +45,15 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a><br>
 <p>para manejar la versión de nuestros componentes emplearemos la siguiente guía <a href="https://docs.npmjs.com/about-semantic-versioning">semantic-versioning</a></p>
 <h3 id="como-se-deben-de-documentar-el-código-en-react">Como se deben de documentar el código en React</h3>
 <p>Para realizar la documentación en React se empleara el estándar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas técnicas necesarias para documentar los componentes creados, ademas de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">demo</a></p>
+<p>Se recomienda manejar el concepto de <a href="http://usejsdoc.org/">jsDoc</a> para los comentarios de nuestros componentes.</p>
 <p>Para la documentación emplearemos los archivos</p>
 <ul>
 <li><a href="http://Changelog.md">Changelog.md</a></li>
 <li><a href="http://Readme.md">Readme.md</a></li>
 </ul>
+<p>Ejemplos para documentar:</p>
+<p><a href="https://github.com/Maik3345/exito-vtex-doc/tree/master/CHANGELOG-BASIC.md">Basic Changelog</a><br>
+<a href="https://github.com/Maik3345/exito-vtex-doc/blob/master/README-BASIC.md">Basic Readme</a></p>
 <h2 id="vtex-cli">Vtex Cli</h2>
 <ul>
 <li><a href="#creaci%C3%B3n-de-un-nuevo-componente-con-vtex-cli">Creación de un nuevo componente</a></li>
