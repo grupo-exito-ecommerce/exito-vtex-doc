@@ -129,6 +129,15 @@ info:    If everything is fine, promote with vtex promote
 <p><code>vtex promote</code> Promovemos el workspace actual a ser una integración con el master, este paso eliminara el workspace actual.</p>
 </li>
 </ol>
+<h1 id="como-publicar-una-aplicación">Como publicar una aplicación</h1>
+<ol>
+<li>
+<p><code>vtex workspace production true</code>  Cambiamos el modo producción del workspace a true</p>
+</li>
+<li>
+<p><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes, ademas se debe de tener en cuenta la versión de la aplicación.</p>
+</li>
+</ol>
 <h1 id="lista-de-componentes-actuales">Lista de componentes actuales</h1>
 <pre><code>|- exito.vtex-components/
 |- exito.login
