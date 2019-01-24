@@ -158,3 +158,6 @@ info:    If everything is fine, promote with vtex promote
 | +- ...
 </code></pre>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTcxNTM2NDI4MF19
+-->
