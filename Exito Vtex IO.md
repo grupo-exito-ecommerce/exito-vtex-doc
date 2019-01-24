@@ -6,7 +6,6 @@
 
 Esta documentación es una guía para el desarrollo con **Vtex IO**
 
-
 * [Recursos necesarios](#recursos-necesarios)
 * [Guía](#guía)
 * [Vtex Cli](#vtex-cli)
@@ -188,5 +187,5 @@ info:    If everything is fine, promote with vtex promote
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ4Nzg3MDAsLTcxNTM2NDI4MF19
+eyJoaXN0b3J5IjpbMTQ5Mjk2MjM0MiwtNzE1MzY0MjgwXX0=
 -->
