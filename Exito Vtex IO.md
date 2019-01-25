@@ -190,7 +190,7 @@ info:    If everything is fine, promote with vtex promote
 
 Se plantea la siguiente estructura, donde **exito** es el workspace principal o productivo, el workspace **develop** es el workspace pre productivo y los workspaces **qa1, qa2, qa3** son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizara sus validaciones técnicas y el tipo de desarrollo que esta realizando en ese momento.
 
-Ejemplo:
+## Ejemplo:
 
 qa1_header--exito.myvtex.com
 
@@ -198,9 +198,11 @@ qa1_header--exito.myvtex.com
 **header** ---> Desarrollo asignado 
 
 
+## Jerarquia de los workspace
+
 |  | [exito](exito.myvtex) |  |
 |--|--|--|
-|  | [develop](https://develop--exito.myvtex.com/) |  |
+|  | **[develop](https://develop--exito.myvtex.com/)** |  |
 | [qa1](https://qa1--exito.myvtex.com/) | [qa2](https://qa2--exito.myvtex.com/)  | [qa3](https://qa3--exito.myvtex.com/) |
 | qa1_sprint | qa2_sprint |qa3_sprint  |
 
@@ -208,6 +210,6 @@ qa1_header--exito.myvtex.com
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDc2MTY2LDE0OTI5NjIzNDIsLTcxNT
-M2NDI4MF19
+eyJoaXN0b3J5IjpbLTY2NTYxNDQwMiwxNDkyOTYyMzQyLC03MT
+UzNjQyODBdfQ==
 -->
