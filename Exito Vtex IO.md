@@ -61,6 +61,28 @@ Para la documentación emplearemos los archivos
 [Basic Changelog](https://github.com/Maik3345/exito-vtex-doc/tree/master/CHANGELOG-BASIC.md)
 [Basic Readme](https://github.com/Maik3345/exito-vtex-doc/blob/master/README-BASIC.md)
 
+
+## Definición para los workspace empleados en el desarrollo
+
+Se plantea la siguiente estructura, donde **exito** es el workspace principal o productivo, el workspace **develop** es el workspace pre productivo y los workspaces **qa1, qa2, qa3** son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizara sus validaciones técnicas y el tipo de desarrollo que esta realizando en ese momento.
+
+## Ejemplo:
+
+- **qa1_header--exito.myvtex.com**
+
+**qa1**  ---> Equipo de SQA encargado de la validación técnica
+**header** ---> Desarrollo asignado 
+
+
+## Jerarquia de los workspace
+
+|  | [exito](exito.myvtex) |  |
+|--|--|--|
+|  | **[develop](https://develop--exito.myvtex.com/)** |  |
+| **[qa1](https://qa1--exito.myvtex.com/)** | **[qa2](https://qa2--exito.myvtex.com/)**  | **[qa3](https://qa3--exito.myvtex.com/)** |
+| qa1_sprint | qa2_sprint |qa3_sprint  |
+
+
 ## Vtex Cli
 
 * [Creación de un nuevo componente](#creación-de-un-nuevo-componente-con-vtex-cli)
@@ -186,30 +208,8 @@ info:    If everything is fine, promote with vtex promote
 
 
 
-## Definición para los workspace empleados en el desarollo
-
-Se plantea la siguiente estructura, donde **exito** es el workspace principal o productivo, el workspace **develop** es el workspace pre productivo y los workspaces **qa1, qa2, qa3** son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizara sus validaciones técnicas y el tipo de desarrollo que esta realizando en ese momento.
-
-## Ejemplo:
-
-qa1_header--exito.myvtex.com
-
-**qa1**  ---> Equipo de SQA encargado de la validación tecnica
-**header** ---> Desarrollo asignado 
-
-
-## Jerarquia de los workspace
-
-|  | [exito](exito.myvtex) |  |
-|--|--|--|
-|  | **[develop](https://develop--exito.myvtex.com/)** |  |
-| [qa1](https://qa1--exito.myvtex.com/) | [qa2](https://qa2--exito.myvtex.com/)  | [qa3](https://qa3--exito.myvtex.com/) |
-| qa1_sprint | qa2_sprint |qa3_sprint  |
-
-
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTYxNDQwMiwxNDkyOTYyMzQyLC03MT
-UzNjQyODBdfQ==
+eyJoaXN0b3J5IjpbNTk5MTAwNTM1LDE0OTI5NjIzNDIsLTcxNT
+M2NDI4MF19
 -->
