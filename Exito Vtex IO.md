@@ -62,7 +62,7 @@ Para la documentación emplearemos los archivos
 [Basic Readme](https://github.com/Maik3345/exito-vtex-doc/blob/master/README-BASIC.md)
 
 
-## Definición para los workspace empleados en el desarrollo
+### Definición para los workspace empleados en el desarrollo
 
 Se plantea la siguiente estructura, donde **exito** es el workspace principal o productivo, el workspace **develop** es el workspace pre productivo y los workspaces **qa1, qa2, qa3** son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizara sus validaciones técnicas y el tipo de desarrollo que esta realizando en ese momento.
 
@@ -210,6 +210,6 @@ info:    If everything is fine, promote with vtex promote
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MTAwNTM1LDE0OTI5NjIzNDIsLTcxNT
-M2NDI4MF19
+eyJoaXN0b3J5IjpbMTA4MTUxMzczNCwxNDkyOTYyMzQyLC03MT
+UzNjQyODBdfQ==
 -->
