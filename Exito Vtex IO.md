@@ -184,16 +184,16 @@ info:    If everything is fine, promote with vtex promote
 | +- ...
 ```
 
-|  | MASTER (Exito.m |  |
+|  | MASTER (exito.myvtex) |  |
 |--|--|--|
-|  |  |  |
-|  |  |  |
+|  | Develop (develop--exito.myvtex) |  |
+| qa1 ([qa1--exito.myvtex.com  |  |  |
 |  |  |  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQxMjgyMDYsMTQ5Mjk2MjM0MiwtNz
+eyJoaXN0b3J5IjpbLTE3MDE5OTI5NjIsMTQ5Mjk2MjM0MiwtNz
 E1MzY0MjgwXX0=
 -->
