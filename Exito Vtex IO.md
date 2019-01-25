@@ -186,14 +186,14 @@ info:    If everything is fine, promote with vtex promote
 
 |  | MASTER (exito.myvtex) |  |
 |--|--|--|
-|  | Develop (develop--exito.myvtex) |  |
-| qa1 ([qa1--exito.myvtex.com](qa1--exito.myvtex.com)  |  |  |
+|  | Develop] (develop--exito.myvtex) |  |
+| [qa1](https://qa1--exito.myvtex.com/)  | [qa2](https://qa2--exito.myvtex.com/)  | [qa3](https://qa3--exito.myvtex.com/) |
 |  |  |  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0NDg2NjI4LDE0OTI5NjIzNDIsLTcxNT
-M2NDI4MF19
+eyJoaXN0b3J5IjpbLTE2OTU0NzM2NzUsMTQ5Mjk2MjM0MiwtNz
+E1MzY0MjgwXX0=
 -->
