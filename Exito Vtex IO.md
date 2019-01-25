@@ -187,6 +187,8 @@ info:    If everything is fine, promote with vtex promote
 
 
 ## Definición para los workspace empleados en el desarollo
+
+Se plantea la siguiente estructura, donde **exito** es el workspace principal o productivo, el workspace **develop** es el workspace pre productivo y los workspaces **qa1, qa2, qa3** son los workspace destinados 
 |  | [exito](exito.myvtex) |  |
 |--|--|--|
 |  | [develop](https://develop--exito.myvtex.com/) |  |
@@ -197,6 +199,6 @@ info:    If everything is fine, promote with vtex promote
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MDIwMDM1LDE0OTI5NjIzNDIsLTcxNT
-M2NDI4MF19
+eyJoaXN0b3J5IjpbLTE0NzAzMzM2MzQsMTQ5Mjk2MjM0MiwtNz
+E1MzY0MjgwXX0=
 -->
