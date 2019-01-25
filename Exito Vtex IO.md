@@ -184,8 +184,16 @@ info:    If everything is fine, promote with vtex promote
 | +- ...
 ```
 
+|  | MASTER (Exito.m |  |
+|--|--|--|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mjk2MjM0MiwtNzE1MzY0MjgwXX0=
+eyJoaXN0b3J5IjpbLTE4NjQxMjgyMDYsMTQ5Mjk2MjM0MiwtNz
+E1MzY0MjgwXX0=
 -->
