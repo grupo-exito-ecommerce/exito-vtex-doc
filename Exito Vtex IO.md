@@ -184,16 +184,19 @@ info:    If everything is fine, promote with vtex promote
 | +- ...
 ```
 
+
+
+## Definición para los workspace empleados en el desarollo
 |  | [exito](exito.myvtex) |  |
 |--|--|--|
 |  | [develop](https://develop--exito.myvtex.com/) |  |
 | [qa1](https://qa1--exito.myvtex.com/) | [qa2](https://qa2--exito.myvtex.com/)  | [qa3](https://qa3--exito.myvtex.com/) |
-| qa1__develo |  |  |
+| qa1_sprint | qa2_sprint |qa3_sprint  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MzkxOTc0LDE0OTI5NjIzNDIsLTcxNT
+eyJoaXN0b3J5IjpbMzE0MDIwMDM1LDE0OTI5NjIzNDIsLTcxNT
 M2NDI4MF19
 -->
