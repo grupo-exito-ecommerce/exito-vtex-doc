@@ -187,13 +187,13 @@ info:    If everything is fine, promote with vtex promote
 |  | MASTER (exito.myvtex) |  |
 |--|--|--|
 |  | Develop (develop--exito.myvtex) |  |
-| qa1 ([qa1--exito.myvtex.com  |  |  |
+| qa1 ([qa1--exito.myvtex.com](qa1--exito.myvtex.com)  |  |  |
 |  |  |  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE5OTI5NjIsMTQ5Mjk2MjM0MiwtNz
-E1MzY0MjgwXX0=
+eyJoaXN0b3J5IjpbOTU0NDg2NjI4LDE0OTI5NjIzNDIsLTcxNT
+M2NDI4MF19
 -->
