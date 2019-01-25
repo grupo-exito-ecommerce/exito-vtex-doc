@@ -210,6 +210,5 @@ info:    If everything is fine, promote with vtex promote
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTUxMzczNCwxNDkyOTYyMzQyLC03MT
-UzNjQyODBdfQ==
+eyJoaXN0b3J5IjpbMTA4MTUxMzczNF19
 -->
