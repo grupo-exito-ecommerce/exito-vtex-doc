@@ -35,7 +35,7 @@ Esta documentación es una guía para el desarrollo con **Vtex IO**
 
 ## Guía
 
-#### Cursos para iniciar
+### Cursos para iniciar
 
 React Básico [Youtube CodeJobs](https://www.youtube.com/watch?v=bG53Pw17tog&list=PLeWI3XlFEVOX6jACDygzApsvigQiDrun8)
 React Curso Completo [Udemy](https://exito.udemy.com/react-the-complete-guide-incl-redux/learn/v4/overview)
@@ -67,7 +67,7 @@ Para la documentación emplearemos los archivos
 
 Se plantea la siguiente estructura, donde **exito** es el workspace principal o productivo, el workspace **develop** es el workspace pre productivo y los workspaces **qa1, qa2, qa3** son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizara sus validaciones técnicas y el tipo de desarrollo que esta realizando en ese momento.
 
-### Ejemplo:
+#### Ejemplo:
 
 - **qa1_header--exito.myvtex.com**
 
@@ -75,7 +75,7 @@ Se plantea la siguiente estructura, donde **exito** es el workspace principal o 
 **header** ---> Desarrollo asignado 
 
 
-### Jerarquia de los workspace
+#### Jerarquia de los workspace
 
 |  | [exito](exito.myvtex) |  |
 |--|--|--|
@@ -182,10 +182,10 @@ info:    If everything is fine, promote with vtex promote
 2. `vtex publish [path]` Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes, ademas se debe de tener en cuenta la versión de la aplicación.
 3. Luego de publicar los componentes, volvemos a indicar que el workspace esta en modo desarrollo `vtex workspace production false`
 
-## Lista de componentes actuales
+## Lista de componentes actuales en React
 
 ```
-|- exito.vtex-components/
+|- exito.vtex-components
 |- exito.login
 |- exito.product-carousel
 |- exito.minicart
@@ -195,6 +195,35 @@ info:    If everything is fine, promote with vtex promote
 |- exito.footer
 |- exito.header
 |- exito.home-configuration
+|- exito.geolocation
+|- exito.cart-detail
+|- exito.login
+|- exito.producto
+|- exito.product-details
+|- exito.product-images-list
+|- exito.product-summary
+|- exito.search-result
+|- exito.shelf
+|- exito.store
+|- exito.vtex-components
+| +- ...
+```
+
+## Lista de componentes actuales en Node + Graphql
+
+```
+|- exito.bags/
+|- exito.smartquick
+|- exito.product-carousel
+|- exito.minicart
+|- exito.carousel
+|- exito.category-menu
+|- exito.components
+|- exito.footer
+|- exito.header
+|- exito.home-configuration
+|- exito.geolocation
+|- exito.cart-detail
 |- exito.login
 |- exito.producto
 |- exito.product-details
@@ -207,5 +236,5 @@ info:    If everything is fine, promote with vtex promote
 | +- ...
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODkxMzgxM119
+eyJoaXN0b3J5IjpbLTMyODIzMDA5NV19
 -->
