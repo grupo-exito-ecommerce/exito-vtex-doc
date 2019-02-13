@@ -20,9 +20,10 @@ Estructura de los recursos necesarios para el proceso de integración continua d
 Los recursos necesarios para el proceso de sonarQube son los siguientes
 ```
 |-- sonar
-|--- sonar-pro
-|--- master.dockerfile
+|--- sonar-project.properties
 ```
+
+`sonar-project.properties`: Este archivo posee la configuración necesaria para subir el coverage generado por Jest.
 
 #### `config/docker`
 
@@ -81,5 +82,5 @@ Explicación de comandos usados:
 `--no-cache`: Obliga a docker a emplear una imagen nueva, sin guardar cache
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQzNDE3NjgsMTQxNTU1Mjg0M119
+eyJoaXN0b3J5IjpbLTEzNzU3NzIzNDYsMTQxNTU1Mjg0M119
 -->
