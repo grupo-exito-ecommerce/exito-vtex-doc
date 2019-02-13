@@ -15,6 +15,15 @@ Estructura de los recursos necesarios para el proceso de integración continua d
 ```
 ## Uso
 
+#### `config/sonar`
+
+Los recursos necesarios para el proceso de sonarQube son los siguientes
+```
+|-- sonar
+|--- sonar-pro
+|--- master.dockerfile
+```
+
 #### `config/docker`
 
 Los recursos necesarios para el proceso de docker son los siguientes
@@ -72,5 +81,5 @@ Explicación de comandos usados:
 `--no-cache`: Obliga a docker a emplear una imagen nueva, sin guardar cache
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTU1Mjg0M119
+eyJoaXN0b3J5IjpbLTE0MzQzNDE3NjgsMTQxNTU1Mjg0M119
 -->
