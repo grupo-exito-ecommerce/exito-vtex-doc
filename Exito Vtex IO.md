@@ -16,7 +16,6 @@
 <ol>
 <li><a href="https://nodejs.org/es/">Node js</a></li>
 <li><a[Lista de componentes](#lista-de-componentes-actuales)
-* [Configuración para Integración Continua](#configuración-de-integración-continua)
 
 ## Recursos necesarios
 
@@ -279,5 +278,5 @@ info:    If everything is fine, promote with vtex promote
 </code></pre>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQxNzMzNDFdfQ==
+eyJoaXN0b3J5IjpbNTkxMjE0MDY5XX0=
 -->
