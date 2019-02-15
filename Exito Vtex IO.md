@@ -245,8 +245,8 @@ Pueden encontrar la especificación técnica de los archivo en el documento en [
 
 * Comandos a emplear:
 	1. `exito generate config`:  Comando que genera las carpetas necesarias de configuración para [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html) y [SonarQube](https://www.sonarqube.org/)
-	2. `exito generate template [name-repository]`:  Comando que genera los archivo  `develop-template.json` para
+	2. `exito generate template [name-repository]`:  Comando que genera los archivo  `develop-template.json` para `master-template.json`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0Njk0MTM3LC0xMTUzMDU0MCwtNTMyOD
-Q3MjRdfQ==
+eyJoaXN0b3J5IjpbMjA5NjUxOTk0OCwtMTE1MzA1NDAsLTUzMj
+g0NzI0XX0=
 -->
