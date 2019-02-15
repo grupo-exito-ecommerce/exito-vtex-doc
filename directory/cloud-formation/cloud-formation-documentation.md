@@ -1,5 +1,3 @@
-CONTINUOS-INTEGRATION-SPECIFICATION
-CONTINUOS-INTEGRATION-SPECIFICATION
 # Integración continua
 
 ### Especificaciones para el proceso de integración continua
