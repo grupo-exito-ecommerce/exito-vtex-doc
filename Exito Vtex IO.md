@@ -1,10 +1,10 @@
----
+a---
 
 
 ---
 
 <h1 id="éxito-vtex-io">Éxito (Vtex IO)</h1>
-<p>Esta documentación es una guía para el desarrollo con <strong>Vtex IO</strong></p>
+<p>Esta documentación es una guía para l esarrollo con <strong>Vtex IO</strong></p>
 <ul>
 <li><a href="#recursos- necesarios">Recursos-necesarios</a></li>
 <li><a href="#gu%C3%ADa">Guía</a></li>
@@ -180,11 +180,11 @@ ClassName.propTypes  <span class="token operator">=</span> <span class="token pu
 <ol start="3">
 <li><em>= {};
 ```
- 3. *defaultProps</em>* : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por los props del componente.</li>
+ 3. *defaultProps</em>* : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por losprops del cponente.</li>
 </ol>
-<pre class=" language-bash"><code class="prism  language-
+<pre class=" language-bash"><code class="prism  languge-
 ```bash">
-ClassName.defaultProps  <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+ClassName.defaultProps  <span class="token operator">=</span> <span class="token punctuation v">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre>
 <p>= {};
 ```
@@ -319,5 +319,5 @@ Pueden encontrar la especificación técnica de los archivo en el documento en <
 </ul>
 ]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTI5NTMzNV19
+eyJoaXN0b3J5IjpbLTE5Nzg3ODc5OTRdfQ==
 -->
