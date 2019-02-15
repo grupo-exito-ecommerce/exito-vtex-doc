@@ -223,7 +223,20 @@ info:    If everything is fine, promote with vtex promote
 
 ## integración continua
 
+Los recurso necesarios para el proceso de integración continua son los siguientes
 
+```
+|-config
+|--docker
+|---develop.dockerfile
+|---master.dockerfile
+|--aws
+|---develop-buildspec.yml
+|---master-buildspec.yml
+|--sonar
+|---sonar-project.properties
+| +- ...
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ4MDk2MzEsLTUzMjg0NzI0XX0=
+eyJoaXN0b3J5IjpbMTUyNjYyODY0OSwtNTMyODQ3MjRdfQ==
 -->
