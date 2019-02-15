@@ -240,7 +240,12 @@ Los recurso necesarios para el proceso de integración continua son los siguient
 
 Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CONTINUOS-INTEGRATION-SPECIFICATION.md)
 
+### Configuración de los recursos con [exito cli](https://www.npmjs.com/package/exito)
 
+
+* Comandos a emplear:
+	* `exito generate config`:  Comando que genera las carpetas 
+	* `exito generate template [name-repository]`: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTY2ODY2MywtNTMyODQ3MjRdfQ==
+eyJoaXN0b3J5IjpbLTEwOTIxOTE4NzgsLTUzMjg0NzI0XX0=
 -->
