@@ -180,7 +180,7 @@ ClassName.propTypes  <span class="token operator">=</span> <span class="token pu
 <ol start="3">
 <li><em>= {};
 ```
- 3. *defaultProps</em>* : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por losprops del cponente.</li>
+ 3. *defaultProps</em>* : Permite definir cual va a ser el valor por defecto .juesros tibutos pasados o losprops del cponente.</li>
 </ol>
 <pre class=" language-bash"><code class="prism  languge-
 ```bash">
@@ -189,7 +189,7 @@ ClassName.defaultProps  <span class="token operator">=</span> <span class="token
 <p>= {};
 ```
 
-Estos tres métodos son empleados por Vtex para la creación de las opciones del storeFront</p>
+Estos tres métodos son e por Vtex para la creación de las opciones del storeFront</p>
 <p>Ejemplo <a href="
 
 Ejemplo [aquí](https://github.com/Maik3345/exito-vtex-doc/blob/master/components/schema-examples/basic-shecma-js.js">aquí</a></p>
@@ -319,5 +319,5 @@ Pueden encontrar la especificación técnica de los archivo en el documento en <
 </ul>
 ]().
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg3ODc5OTRdfQ==
+eyJoaXN0b3J5IjpbMTI3OTU3MjE2OF19
 -->
