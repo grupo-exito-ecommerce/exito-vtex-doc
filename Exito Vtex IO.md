@@ -31,7 +31,7 @@ Esta documentación es una guía para el desarrollo con **Vtex IO**
 4. [Create React App Repo](https://github.com/facebook/create-react-app) 
 5. [Create React App Npm](https://www.npmjs.com/package/create-react-app)
 7. [Vtex Cli](https://www.npmjs.com/package/vtex) Linea de comandos para vtex
-8. [Exito Cli](https://www.npmjs.com/package/exito-cli) Linea de comandos para éxito
+8. [Exito Cli](https://www.npmjs.com/package/exito) Linea de comandos para éxito
 9. [CMDER](http://cmder.net/) Terminal Para windows
 10. [Iterm2](https://www.iterm2.com/) Terminal para Mac
 11. [Aws Cli](https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html) Linea de comandos para Amazon
@@ -238,7 +238,9 @@ Los recurso necesarios para el proceso de integración continua son los siguient
 | +- ...
 ```
 
-Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CONTINUOS-NTEGRATION-SPECIFICATION.md)
+Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CONTINUOS-INTEGRATION-SPECIFICATION.md)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDAwNTI4NywtNTMyODQ3MjRdfQ==
+eyJoaXN0b3J5IjpbLTQ2NTY2ODY2MywtNTMyODQ3MjRdfQ==
 -->
