@@ -12,7 +12,7 @@ Estructura de los recursos necesarios para el proceso de integración continua d
 |---develop-buildspec.yml
 |---master-buildspec.yml
 |--sonar
-|--
+|---sonar-project.properties
 | +- ...
 ```
 ## Uso
@@ -84,6 +84,6 @@ Explicación de comandos usados:
 `--no-cache`: Obliga a docker a emplear una imagen nueva, sin guardar cache
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwOTU2ODc4LDIwODI1OTE3LC0xMzc1Nz
-cyMzQ2LDE0MTU1NTI4NDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MzMwODI1NTEsMjA4MjU5MTcsLTEzNz
+U3NzIzNDYsMTQxNTU1Mjg0M119
 -->
