@@ -237,6 +237,8 @@ Los recurso necesarios para el proceso de integración continua son los siguient
 |---sonar-project.properties
 | +- ...
 ```
+
+Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CONTINUOS-NTEGRATION-SPECIFICATION.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjYyODY0OSwtNTMyODQ3MjRdfQ==
+eyJoaXN0b3J5IjpbMTA2MDAwNTI4NywtNTMyODQ3MjRdfQ==
 -->
