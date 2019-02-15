@@ -14,6 +14,7 @@ Esta documentación es una guía para el desarrollo con **Vtex IO**
 * [Vtex Cli](#vtex-cli)
 * [Trabajando con Vtex + React](#trabajando-con-vtex-y-react)
 * [Lista de componentes](#lista-de-componentes-actuales)
+* [Integración continua](#integración-continua)
 
 ## Recursos necesarios
 
@@ -218,6 +219,11 @@ info:    If everything is fine, promote with vtex promote
 |- exito.smartquick
 | +- ...
 ```
+
+
+## integración continua
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjg0NzI0XX0=
+eyJoaXN0b3J5IjpbLTEyOTQ4MDk2MzEsLTUzMjg0NzI0XX0=
 -->
