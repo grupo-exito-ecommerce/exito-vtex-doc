@@ -56,8 +56,8 @@ Para la documentación emplearemos los archivos
 
 ### Ejemplos para documentar:
 
-[Basic Changelog](https://github.com/Maik3345/exito-vtex-doc/tree/master/CHANGELOG-BASIC.md)
-[Basic Readme](https://github.com/Maik3345/exito-vtex-doc/blob/master/README-BASIC.md)
+[Basic Changelog](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/components/documentation/CHANGELOG-BASIC.md)
+[Basic Readme](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/components/documentation/README-BASIC.md)
 
 
 ### Definición para los workspace empleados en el desarrollo
@@ -109,7 +109,7 @@ para la creación de un nuevo proyecto empleamos el comando `vtex init` el cual 
 ```
 ### Repositorio  de los proyectos
 
-[hello-react-typescript github](https://github.com/Maik3345/hello-react-ts)
+[hello-react-typescript github](https://github.com/grupo-exito-ecommerce/hello-react-ts)
 
 ### Instalación de dependencias para el Admin de Vtex
 
@@ -155,7 +155,7 @@ ClassName.defaultProps  = {};
 
 Estos tres métodos son empleados por Vtex para la creación de las opciones del storeFront
 
-Ejemplo [aquí](https://github.com/Maik3345/exito-vtex-doc/blob/master/components/schema-examples/basic-shecma-js.js)
+Ejemplo [aquí](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/components/schema-examples/basic-shecma-js.js)
 
 
 
@@ -231,7 +231,7 @@ Los recurso necesarios para el proceso de integración continua son los siguient
 | +- ...
 ```
 
-Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CONTINUOS-INTEGRATION-SPECIFICATION.md">Github)
+Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/continuos-integration-config/continuos-integration-config.md)
 
 #### Configuración de los recursos con [exito-cli](https://www.npmjs.com/package/exito)
 
@@ -240,7 +240,4 @@ Pueden encontrar la especificación técnica de los archivo en el documento en [
 1. `exito generate config`:  Comando que genera las carpetas necesarias de configuración para [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html)  y [SonarQube](https://www.sonarqube.org/)
 2.  `exito generate template [name-repository]`: 
 		
-Comando que genera los archivo  `develop-template.json` y `master-template.json` estos archivos son empleados para montar la infraestructura con [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html), para ver la guía de como subir los templates a Cloud-Formation ver la siguiente documentación [Cloud-Formation-Doc](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CLOUD-FORMATION-DOC.md).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjQ3Mzc1OF19
--->
+Comando que genera los archivo  `develop-template.json` y `master-template.json` estos archivos son empleados para montar la infraestructura con [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html), para ver la guía de como subir los templates a Cloud-Formation ver la siguiente documentación [Cloud-Formation-Doc](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/cloud-formation/cloud-formation-documentation.md).
