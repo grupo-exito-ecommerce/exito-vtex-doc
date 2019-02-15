@@ -9,6 +9,7 @@ Esta documentación es una guía para el desarrollo con **Vtex IO**
 * [Vtex Cli](#vtex-cli)
 * [Trabajando con Vtex + React](#trabajando-con-vtex-y-react)
 * [Lista de componentes](#lista-de-componentes-actuales)
+* [Integración continua](#integración-continua)
 
 ## Recursos necesarios
 
