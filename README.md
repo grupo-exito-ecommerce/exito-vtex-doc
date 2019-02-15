@@ -241,3 +241,6 @@ Pueden encontrar la especificación técnica de los archivo en el documento en [
 2.  `exito generate template [name-repository]`: 
 		
 Comando que genera los archivo  `develop-template.json` y `master-template.json` estos archivos son empleados para montar la infraestructura con [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html), para ver la guía de como subir los templates a Cloud-Formation ver la siguiente documentación [Cloud-Formation-Doc](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/CLOUD-FORMATION-DOC.md).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTc5NjQ3Mzc1OF19
+-->
