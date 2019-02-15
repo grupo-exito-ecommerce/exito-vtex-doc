@@ -244,8 +244,8 @@ Pueden encontrar la especificación técnica de los archivo en el documento en [
 
 
 * Comandos a emplear:
-	* `exito generate config`:  Comando que genera las carpetas 
+	* `exito generate config`:  Comando que genera las carpetas necesarias de configuración para [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html) y [SonarQube](https://www.sonarqube.org/)
 	* `exito generate template [name-repository]`: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIxOTE4NzgsLTUzMjg0NzI0XX0=
+eyJoaXN0b3J5IjpbLTExNTMwNTQwLC01MzI4NDcyNF19
 -->
