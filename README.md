@@ -269,7 +269,25 @@ Actualización en el archivo manifest.json
 `"messages": "0.x"  `: Nueva configuración para la traducción de nuestro componente.
 
 
-#### Eliminación de la carpeta pages y creación del direstore
+#### Eliminación de la carpeta pages y creación del directorio store
+
+Con los cambios en el builder, vtex reemplazo la lógica para armar las url y los contenedores de nuestra aplicación.
+
+```
+|-pages x
+|--pages.json x
+|-store 
+|--docker
+|---develop.dockerfile
+|---master.dockerfile
+|--aws
+|---develop-buildspec.yml
+|---master-buildspec.yml
+|--sonar
+|---sonar-project.properties
+| +- ...
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NDE5OTk5XX0=
+eyJoaXN0b3J5IjpbMTg0MjM5ODU1MF19
 -->
