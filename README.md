@@ -241,7 +241,7 @@ Pueden encontrar la especificación técnica de los archivo en el documento en [
 1. `exito generate config`:  Comando que genera las carpetas necesarias de configuración para [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html)  y [SonarQube](https://www.sonarqube.org/)
 2.  `exito generate template [name-repository]`: 
 		
-Comando que genera los archivo  `develop-template.json` y `master-template.json` estos archivos son empleados para montar la infraestructura con [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html), para ver la guía de como subir los templates a Cloud-Formation ver la siguiente documentación [Cloud-Formation-Doc](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/cloud-formation/cloud-formation-documentation.md).CLOUD-FORMATION-DOC.md).
+Comando que genera los archivo  `develop-template.json` y `master-template.json` estos archivos son empleados para montar la infraestructura con [Cloud-Formation](https://docs.aws.amazon.com/cloudformation/index.html), para ver la guía de como subir los templates a Cloud-Formation ver la siguiente documentación [Cloud-Formation-Doc](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/cloud-formation/cloud-formation-documentation.md)).
 
 
 
@@ -284,5 +284,5 @@ Con los cambios en el builder, vtex reemplazo la lógica para armar las url y lo
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzMyODY2NF19
+eyJoaXN0b3J5IjpbLTM4MDc3ODk1M119
 -->
