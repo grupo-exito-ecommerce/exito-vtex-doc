@@ -274,20 +274,15 @@ Actualización en el archivo manifest.json
 Con los cambios en el builder, vtex reemplazo la lógica para armar las url y los contenedores de nuestra aplicación.
 
 ```
-|-pages x
-|--pages.json x
-|-store 
-|--docker
-|---develop.dockerfile
-|---master.dockerfile
-|--aws
-|---develop-buildspec.yml
-|---master-buildspec.yml
-|--sonar
-|---sonar-project.properties
+|-pages ✗
+|--pages.json ✗
+|-store ✓
+|--blocks.json ✓
+|--interface.json ✓
+|--routes.json ✓
 | +- ...
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjM5ODU1MF19
+eyJoaXN0b3J5IjpbLTc4MzMyODY2NF19
 -->
