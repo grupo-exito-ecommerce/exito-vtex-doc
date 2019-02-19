@@ -258,13 +258,18 @@ Actualización en el archivo manifest.json
 	"messages": "0.x"  
 },
 ```
-#### Explicación:
+#### Guía:
 `vtex-version`:  Atributo empleado con la finalizad de mantener registrada la ultima versión del componente de vtex, la idea con este atributo es ir actualizando gradualmente cuando vtex lance versiones de los componentes que estemos personalizando y mantener el registro que indique cual fue la ultima versión de vtex empleada, si el componente no es creado por vtex aun así agregamos el atributo dejando en la versión `0.0.0` para así mantener la misma estructura en todos los proyectos.
 
 `
 "styles": "1.x",  
 "store": "0.x",  
-`: Nueva configuración para compilar la aplicación de vtex, se ha removido el builder `"pages": "0.x"` 
+`: Nueva configuración para compilar la aplicación de vtex, se ha removido el builder `"pages": "0.x"`, Pueden encontrar una guía detallada de la migración de estos builders en [vtex help](https://help.vtex.com/es/tutorial/conociendo-el-storebuilder-y-el-stylesbuilder)
+
+`"messages": "0.x"  `: Nueva configuración para la traducción de nuestro componente.
+
+
+#### Eliminación de la carpeta pages y creación del direstore
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDIwNDM5MV19
+eyJoaXN0b3J5IjpbNjc1NDE5OTk5XX0=
 -->
