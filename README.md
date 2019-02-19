@@ -236,7 +236,7 @@ info:    If everything is fine, promote with vtex promote
 <p><code>"styles": "1.x", "store": "0.x",</code>: Nueva configuración para compilar la aplicación de vtex, se ha removido el builder <code>"pages": "0.x"</code>, Pueden encontrar una guía detallada de la migración de estos builders en <a href="https://help.vtex.com/es/tutorial/conociendo-el-storebuilder-y-el-stylesbuilder">vtex help</a></p>
 <p><code>"messages": "0.x"</code>: Nueva configuración para la traducción de nuestro componente.</p>
 <h4 id="eliminación-de-la-carpeta-pages-y-creación-del-directorio-store">Eliminación de la carpeta pages y creación del directorio store</h4>
-<p>Con los cambios en el builder, vtex reemplazo la lógica para armar las url y los contenedores de nuestra aplicación.</p>
+<p>Con los cambios en el builder, vtex reemplazo la lógica para armar las url y los contenedores de nuestra aplicación, pueden encontrar la explicación técnica armada por vtex <a href="https://help.vtex.com/es/tutorial/conociendo-el-storebuilder-y-el-stylesbuilder">vtex help</a></p>
 <pre><code>|-pages ✗
 |--pages.json ✗
 |-store ✓
