@@ -279,7 +279,7 @@ Guía:
 
 `"styles": "1.x", "store": "0.x",`: Nueva configuración para compilar la aplicación de vtex, se ha removido el builder `"pages": "0.x"`, Pueden encontrar una guía detallada de la migración de estos builders en [vtex help](https://help.vtex.com/es/tutorial/conociendo-el-storebuilder-y-el-stylesbuilder")
 
-`"messages": "0.x"`: Nueva configuración para la traducción de nuestro componente.
+`"messages": "1.x"`: Nueva configuración para la traducción de nuestro componente, actualmente el nuevo builder no soporta la versión `0.x` solo `1.x`
 
 #### Eliminación de la carpeta pages y creación del directorio store
 
