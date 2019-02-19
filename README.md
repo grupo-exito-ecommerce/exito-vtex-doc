@@ -258,8 +258,8 @@ Actualización en el archivo manifest.json
 	"messages": "0.x"  
 },
 ```
-Explicación:
-`vtex-version`: 
+#### Explicación:
+`vtex-version`:  Atributo empleado con la finalizad de mantener registrada la ultima versión del componente de vtex, la idea con este atributo es ir actualizando gradualmente cuando vtex lance versiones de los componentes que estemos personalizando y mantener el registro que indique cual fue la ultima versión de vtex empleada, si el componente no es creado por vtex aun así agregamos el atributo 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ4OTE1NzldfQ==
+eyJoaXN0b3J5IjpbMTg0NjA1NTk4NF19
 -->
