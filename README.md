@@ -280,6 +280,10 @@ Con los cambios en el builder, vtex reemplazo la lógica para armar las url y lo
 |--routes.json ✓
 | +- ...
 ```
+
+#### Cambio del `render` de vtex
+
+Se van a presentar varios errores en cuanto a la referencia de la dependencia `render` la cual ha cambiado por vt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzU3OTc5MF19
+eyJoaXN0b3J5IjpbNDY5ODgxMjg1XX0=
 -->
