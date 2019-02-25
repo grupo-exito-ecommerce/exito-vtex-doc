@@ -300,3 +300,6 @@ Guía:
 <h4 id="cambio-del-render-de-vtex">Cambio del <code>render</code> de vtex</h4>
 <p>Se van a presentar varios errores en cuanto a la referencia de la dependencia <code>render</code> la cual ha cambiado por <code>vtex.render-runtime</code>.</p>
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjAwMTk4OTM0Ml19
+-->
