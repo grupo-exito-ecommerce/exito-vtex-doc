@@ -4,11 +4,11 @@
 
 Esta documentación es una guía para el desarrollo con **Vtex IO**
 
-- [Recursos necesarios](#recursos-necesarios)
-- [Guía](#guía)
-- [Vtex Cli](#vtex-cli)
-- [Trabajando con Vtex + React](#trabajando-con-vtex-y-react)
-- [Lista de componentes](#lista-de-componentes-actuales)
+ [Recursos necesarios](#recursos-necesarios)
+ [Guía](#guía)
+ [Vtex Cli](#vtex-cli)
+ [Trabajando con Vtex + React](#trabajando-con-vtex-y-react)
+ [Lista de componentes](#lista-de-componentes-actuales)
 - [Migración Vtex v2](#proceso-de-migración-vtex-v2)
 
 ## Recursos necesarios
@@ -71,16 +71,16 @@ Se plantea la siguiente estructura, donde **exito** es el workspace principal o 
 
 - **qa1_header--exito.myvtex.com**
   **qa1** ---> Equipo de SQA encargado de la validación técnica
-  **header** ---> Desarrollo asignado
+**header** ---> Desarrollo asignado
 
 #### Jerarquia de los workspace
 
-|                                           | [exito](exito.myvtex)                             |                                           |
-| ----------------------------------------- | ------------------------------------------------- | ----------------------------------------- |
-|                                           | **[develop](https://develop--exito.myvtex.com/)** |                                           |
-| **[qa1](https://qa1--exito.myvtex.com/)** | **[qa2](https://qa2--exito.myvtex.com/)**         | **[qa3](https://qa3--exito.myvtex.com/)** |
-| qa1_sprint                                | qa2_sprint                                        | qa3_sprint                                |
 
+|                                 vtex)                             |                                           |
+| ----------------------------------------- | ------------------------------------------------- | ----------------------------------------- |
+|                                          | [exito](exito.my|  | **[develop](https://develop--exito.myvtex.com/)** |                                           |
+| **[qa1](https://qa1--exito.myvtex.com/)** | **[qa2](https://qa2--exito.myvtex.com/)**         | **[qa3](https://qa3--exito.myvtex.com/)** |
+| qa1_sprint                                | qa2_sprint                                        | qa3_sprint                                
 ## Vtex Cli
 
 - [Creación de un nuevo componente](#creación-de-un-nuevo-componente-con-vtex-cli)
@@ -102,7 +102,6 @@ store-theme
 ### Creación de un nuevo componente con Exito cli
 
 `exito init`
-
 ```bash
 hello-react-typescript
 ```
@@ -131,13 +130,11 @@ vtex install vtex.admin-pages
 
 para la configuración necesaria para el storefront se necesitan tres métodos dentro de nuestro componente:
 
-1.  _getSchema_ : Define los diferentes atributos que se le pasarán al componente por medio de las propiedades.
-
+1. _*getSchema_ : Define los diferentes atributos que se le pasarán al componente por medio de las propiedades.
 ```bash
 ClassName.getSchema = () => {
 return {}
 };
-
 ```
 
 Ejemplos donde se emplean esquemas en los componentes:
@@ -146,16 +143,13 @@ Ejemplos donde se emplean esquemas en los componentes:
 
 * [Vtex Minicart](https://github.com/vtex-apps/minicart)
 
-2.  _propTypes_ : Permite tipar los datos y definir de que tipo son cada uno de los atributos pasados por las props del componente
-
+2. _*propTypes_ : Permite tipar los datos y definir de que tipo son cada uno de los atributos pasados por las props del componente
 ```bash
 import PropTypes from 'prop-types'
 ClassName.propTypes = {};
-
 ```
 
-3.  _defaultProps_ : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por los props del componente.
-
+3. defaultProps_ : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por los props del componente.
 ```bash
 ClassName.defaultProps = {};
 ```
@@ -171,7 +165,6 @@ los pasos para promover un workspace son:
 1.  `vtex workspace production true` Cambiamos el modo producción del workspace a true
 
 #### callback
-
 ```bash
 info: Workspace dev set to production mode
 info: You can now check your changes before publishing them
@@ -192,8 +185,7 @@ info: If everything is fine, promote with vtex promote
 
 ## Lista de componentes actuales en React
 
-```
-|- exito.vtex-components
+```|- exito.vtex-components
 |- exito.login
 |- exito.product-carousel
 |- exito.minicart
@@ -215,13 +207,11 @@ info: If everything is fine, promote with vtex promote
 |- exito.store
 |- exito.vtex-components
 | +- ...
-
 ```
 
 ## Lista de componentes actuales en Node + Graphql
 
-```
-|- exito.bags
+```|- exito.bags
 |- exito.smartquick
 | +- ...
 
@@ -230,22 +220,18 @@ info: If everything is fine, promote with vtex promote
 ## Integración continua
 
 Los recurso necesarios para el proceso de integración continua son los siguientes
-
 ```
-|-config
+-config
 |--docker
 |---develop.dockerfile
 |---master.dockerfile
-|--aws
-|---develop-buildspec.yml
+|--aws|---develop-buildspec.yml
 |---master-buildspec.yml
 |--sonar
 |---sonar-project.properties
 | +- ...
-
 ```
-
-Pueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/continuos-integration-config/continuos-integration-config.md)
+ueden encontrar la especificación técnica de los archivo en el documento en [Github](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/continuos-integration-config/continuos-integration-config.md)
 
 #### Configuración de los recursos con [exito-cli](https://www.npmjs.com/package/exito)
 
@@ -294,3 +280,6 @@ Con los cambios en el builder, vtex reemplazo la lógica para armar las url y lo
 |--routes.json ✓
 | +- ...
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjEzMzU3OTc5MF19
+-->
