@@ -245,7 +245,6 @@ info: If everything is fine, promote with vtex promote
 	"messages": "0.x"
 },
 
-Guía:
 </code></pre>
 <h4 id="guía-1">Guía:</h4>
 <p><code>version</code>: Cambiar a la versión <code>2.0.0</code> ya que esta sera la inicial para la migración.</p>
