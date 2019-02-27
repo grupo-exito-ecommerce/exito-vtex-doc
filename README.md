@@ -10,10 +10,9 @@
 <a href="#gu%C3%ADa">Guía</a><br>
 <a href="#vtex-cli">Vtex Cli</a><br>
 <a href="#trabajando-con-vtex-y-react">Trabajando con Vtex + React</a><br>
-<a href="#lista-de-componentes-actuales">Lista de componentes</a></p>
-<ul>
-<li><a href="#proceso-de-migraci%C3%B3n-vtex-v2">Migración Vtex v2</a></li>
-</ul>
+<a href="#lista-de-componentes-actuales">Lista de componentes</a><br>
+<a href="#proceso-de-migraci%C3%B3n-vtex-v2">Migración Vtex v2</a><br>
+<a href="#integraci%C3%B3n-continua">Integración continua</a></p>
 <h2 id="recursos-necesarios">Recursos necesarios</h2>
 <ol>
 <li><a href="https://nodejs.org/es/">Node js</a></li>
@@ -249,6 +248,7 @@ info: If everything is fine, promote with vtex promote
 Guía:
 </code></pre>
 <h4 id="guía-1">Guía:</h4>
+<p><code>version</code>: Cambiar a la versión <code>2.0.0</code> ya que esta sera la inicial para la migración.</p>
 <p><code>vtex-version</code>: Atributo empleado con la finalizad de mantener registrada la ultima versión del componente de vtex, la idea con este atributo es ir actualizando gradualmente cuando vtex lance versiones de los componentes que estemos personalizando y mantener el registro que indique cual fue la ultima versión de vtex empleada, si el componente no es creado por vtex aun así agregamos el atributo dejando en la versión <code>0.0.0</code> para así mantener la misma estructura en todos los proyectos.</p>
 <p><code>"styles": "1.x", "store": "0.x",</code>: Nueva configuración para compilar la aplicación de vtex, se ha removido el builder <code>"pages": "0.x"</code>, Pueden encontrar una guía detallada de la migración de estos builders en <a href="https://help.vtex.com/es/tutorial/conociendo-el-storebuilder-y-el-stylesbuilder">vtex help</a></p>
 <p><code>"messages": "1.x"</code>: Nueva configuración para la traducción de nuestro componente, actualmente el nuevo builder no soporta la versión <code>0.x</code> solo <code>1.x</code></p>
@@ -266,4 +266,18 @@ Guía:
 <p>Se van a presentar varios errores en cuanto a la referencia de la dependencia <code>render</code> la cual ha cambiado por <code>vtex.render-runtime</code></p>
 <h4 id="store">Store</h4>
 <p><code>vtex.store</code> migra a <code>"vtex.store-resources": "0.x",</code> donde podemos encontrar el <code>OrderFormContext</code> <a href="https://github.com/vtex-apps/store-resources/tree/master/react">github</a></p>
+<h2 id="paso-a-paso-para-la-configuración">Paso a paso para la configuración</h2>
+<ol>
+<li>Verificar que los componentes esten actualizados a nivel de master</li>
+<li>Verificar que branchs pueden borrar. si ya no se estan usando</li>
+<li>Crear el tag para la versión 1.x del componente a editar</li>
+<li>Crear el branch, recomendación <code>feature/migration-v2</code></li>
+<li>Inician proceso de migración teniendo en cuenta los pasos necesarios:
+<ul>
+<li><a href="#proceso-de-migraci%C3%B3n-vtex-v2">Migración Vtex v2</a></li>
+<li><a href="#integraci%C3%B3n-continua">Integración continua</a></li>
+</ul>
+</li>
+<li>Probar el componente y integrar a master.</li>
+</ol>
 
