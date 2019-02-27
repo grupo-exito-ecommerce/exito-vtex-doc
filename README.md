@@ -78,7 +78,7 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
 <tbody>
 <tr>
 <td></td>
-<td>[exito](<a href="http://exito.my">exito.my</a></td>
+<td><a href="https://exito.myvtex.com">exito</a></td>
 </tr>
 <tr>
 <td><strong><a href="https://qa1--exito.myvtex.com/">qa1</a></strong></td>
