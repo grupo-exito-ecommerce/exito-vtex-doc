@@ -78,10 +78,10 @@ Se plantea la siguiente estructura, donde **exito** es el workspace principal o 
 
 | | | |
 | ----------------------------------------- | ------------------------------------------------- | --------------------------------------- |
-|                                          | **[exito](https://exito.myvtex.com)** | 
+|  | **[exito](https://exito.myvtex.com)** |
 | | **[develop](https://develop--exito.myvtex.com/)** |                                           |
-| **[qa1](https://qa1--exito.myvtex.com/)** | **[qa2](https://qa2--exito.myvtex.com/)**         | **[qa3](https://qa3--exito.myvtex.com/)** |
-| feature                                | feature                                        | feature         
+| **[qa_feature](https://qa1--exito.myvtex.com/)** | **[qa_feature](https://qa2--exito.myvtex.com/)**| **[qa_feature](https://qa3--exito.myvtex.com/)** |
+| feature   | feature    | feature           
                        
 ## Vtex Cli
 
@@ -290,5 +290,6 @@ Se van a presentar varios errores en cuanto a la referencia de la dependencia `r
 #### Store
 `vtex.store` migra a `"vtex.store-resources": "0.x",` donde podemos encontrar el `OrderFormContext` [github](https://github.com/vtex-apps/store-resources/tree/master/react)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzQ4NDU1OSwxMTAyNTg2MjY1XX0=
+eyJoaXN0b3J5IjpbNjQ1Mzc3NDYyLDEzOTM0ODQ1NTksMTEwMj
+U4NjI2NV19
 -->
