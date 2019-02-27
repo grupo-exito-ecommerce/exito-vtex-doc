@@ -277,6 +277,7 @@ info: If everything is fine, promote with vtex promote
 <li><a href="#integraci%C3%B3n-continua">Integración continua</a></li>
 </ul>
 </li>
-<li>Probar el componente y integrar a master.</li>
+<li>Probar el componente</li>
+<li>Actualizar el <a href="http://CHANGELOG.md">CHANGELOG.md</a> y actualizar a master</li>
 </ol>
 
