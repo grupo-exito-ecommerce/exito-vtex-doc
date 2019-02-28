@@ -257,7 +257,7 @@ info: If everything is fine, promote with vtex promote
 |--pages.json ✗
 |-store ✓
 |--blocks.json ✓
-|--interface.json ✓
+|--interfaces.json ✓
 |--routes.json ✓
 | +- ...
 </code></pre>
