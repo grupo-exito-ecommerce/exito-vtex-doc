@@ -270,7 +270,7 @@ info: If everything is fine, promote with vtex promote
 <li>Verificar que los componentes esten actualizados a nivel de master</li>
 <li>Verificar que branchs pueden borrar. si ya no se estan usando</li>
 <li>Crear el tag para la versión 1.x del componente a editar</li>
-<li>Crear el branch, recomendación <code>feature/migration-v2</code></li>
+<li>Crear el branch, recomendación <code>feature/migration-feature-v2</code></li>
 <li>Inician proceso de migración teniendo en cuenta los pasos necesarios:
 <ul>
 <li><a href="#proceso-de-migraci%C3%B3n-vtex-v2">Migración Vtex v2</a></li>
