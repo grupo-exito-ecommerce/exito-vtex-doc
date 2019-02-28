@@ -265,7 +265,9 @@ info: If everything is fine, promote with vtex promote
 <p>Se van a presentar varios errores en cuanto a la referencia de la dependencia <code>render</code> la cual ha cambiado por <code>vtex.render-runtime</code></p>
 <h4 id="store">Store</h4>
 <p><code>vtex.store</code> migra a <code>"vtex.store-resources": "0.x",</code> donde podemos encontrar el <code>OrderFormContext</code> <a href="https://github.com/vtex-apps/store-resources/tree/master/react">github</a></p>
-<h2 id="paso-a-paso-para-la-configuración">Paso a paso para la configuración</h2>
+<h4 id="styleguide">Styleguide</h4>
+<p><code>"vtex.styleguide": "8.x"</code> migra a <code>"vtex.styleguide": "9.x"</code></p>
+<h3 id="paso-a-paso-para-la-configuración">Paso a paso para la configuración</h3>
 <ol>
 <li>Verificar que los componentes esten actualizados a nivel de master</li>
 <li>Verificar que branchs pueden borrar. si ya no se estan usando</li>
