@@ -14,6 +14,5 @@
 ![Configuración adicional](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/images/Screenshot%20at%20Feb%2015%2011-38-22.png?raw=true)
 7. Finalizar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDYxODA0MjYsLTEzNzQwNjgyMjNdfQ
-==
+eyJoaXN0b3J5IjpbLTExMDYxODA0MjZdfQ==
 -->
