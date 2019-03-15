@@ -115,9 +115,11 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
 <h3 id="creación-de-un-nuevo-componente-con-exito-cli">Creación de un nuevo componente con Exito cli</h3>
 <p><code>exito init</code></p>
 <pre class=" language-bash"><code class="prism  language-bash">hello-react-typescript
+graphql-getstarted
 </code></pre>
 <h3 id="repositorio-de-los-proyectos">Repositorio de los proyectos</h3>
-<p><a href="https://github.com/grupo-exito-ecommerce/hello-react-ts">hello-react-typescript github</a></p>
+<p><a href="https://github.com/grupo-exito-ecommerce/hello-react-ts">hello-react-typescript github</a><br>
+<a href="https://github.com/grupo-exito-ecommerce/graphql-getstarted">graphql-getstarted</a></p>
 <h3 id="instalación-de-dependencias-para-el-admin-de-vtex">Instalación de dependencias para el Admin de Vtex</h3>
 <p>Las siguientes dependencias permiten agregar comportamientos como el admin pages y el storefront en la página de vtex.</p>
 <p>vtex install vtex.pages-editor</p>
