@@ -4,7 +4,6 @@
 ---
 
 <h1 id="éxito-vtex-io">Éxito (Vtex IO)</h1>
-<p>===================</p>
 <p>Esta documentación es una guía para el desarrollo con <strong>Vtex IO</strong></p>
 <p><a href="#recursos-necesarios">Recursos necesarios</a><br>
 <a href="#gu%C3%ADa">Guía</a><br>
