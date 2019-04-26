@@ -185,4 +185,10 @@ info: If everything is fine, promote with vtex promote
 <p><code>infra update_triggers</code>: Comando que se encarga de leer el directorio actual y permitir realizar la ejecución  de los archivos <code>.json</code> que contienen la configuración para actualizar o agregar los triggers de un repositorio.</p>
 </li>
 </ol>
+<h3 id="como-puedo-verificar-el-build-realizado-cuando-realize-un-push-a-los-branchs-developy-master">Como puedo verificar el build realizado cuando realize un push a los branchs <code>develop</code>y <code>master</code></h3>
+<p>En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos para realizar el build de nuestros componentes</p>
+<ul>
+<li><a href="https://console.aws.amazon.com/codesuite/codebuild/projects/exito-vtex-deploy-develop/history?region=us-east-1">exito-vtex-deploy-develop</a>:  Empleado para hacer el build del branch develop</li>
+<li><a href="https://console.aws.amazon.com/codesuite/codebuild/projects/exito-vtex-deploy-master/history?region=us-east-1">exito-vtex-deploy-master</a>: Empleado para hacer el build del branch master</li>
+</ul>
 
