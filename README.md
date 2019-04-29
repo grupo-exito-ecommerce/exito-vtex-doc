@@ -26,11 +26,11 @@
 </li>
 <li><a href="https://github.com/facebook/create-react-app">Create React App Repo</a></li>
 <li><a href="https://www.npmjs.com/package/create-react-app">Create React App Npm</a></li>
-<li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a> Linea de comandos para vtex</li>
-<li><a href="https://www.npmjs.com/package/exito-cli">Exito Cli</a> Linea de comandos para éxito</li>
+<li><a href="https://www.npmjs.com/package/vtex">Vtex Cli</a> Línea de comandos para vtex</li>
+<li><a href="https://www.npmjs.com/package/exito-cli">Exito Cli</a> Línea de comandos para éxito</li>
 <li><a href="http://cmder.net/">CMDER</a> Terminal Para windows</li>
 <li><a href="https://www.iterm2.com/">Iterm2</a> Terminal para Mac</li>
-<li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a> Linea de comandos para Amazon</li>
+<li><a href="https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html">Aws Cli</a> Línea de comandos para Amazon</li>
 </ol>
 <h2 id="guía">Guía</h2>
 <h3 id="cursos-para-iniciar">Cursos para iniciar</h3>
@@ -39,10 +39,10 @@ React Curso Completo <a href="https://exito.udemy.com/react-the-complete-guide-i
 Graphql + React <a href="https://exito.udemy.com/graphql-with-react-course/learn/v4/content">Udemy</a><br>
 Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
 <p><a href="https://github.com/sw-yx/react-typescript-cheatsheet">React typescript tips</a></p>
-<h3 id="como-manejar-la-versión-de-los-componentes-semantic-versioning">Como manejar la versión de los componentes (Semantic versioning)</h3>
+<h3 id="cómo-manejar-la-versión-de-los-componentes-semantic-versioning">Cómo manejar la versión de los componentes (Semantic versioning)</h3>
 <p>para manejar la versión de nuestros componentes emplearemos la siguiente guía <a href="https://docs.npmjs.com/about-semantic-versioning">semantic-versioning</a></p>
 <h3 id="como-se-deben-de-documentar-el-código-en-react">Como se deben de documentar el código en React</h3>
-<p>Para realizar la documentación en React se empleara el estándar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas técnicas necesarias para documentar los componentes creados, ademas de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">demo</a></p>
+<p>Para realizar la documentación en React se emplea el estándar definido por <a href="https://react-styleguidist.js.org/docs/documenting.html">react-styleguidist</a> donde se definen diversas técnicas necesarias para documentar los componentes creados, además de esto permite generar una documentación automática que permite visualizar muy bien el contenido que hemos documentado. <a href="https://github.com/styleguidist/react-styleguidist/tree/master/examples/basic">demo</a></p>
 <p>Se recomienda manejar el concepto de <a href="http://usejsdoc.org/">jsDoc</a> para los comentarios de nuestros componentes.</p>
 <p>Para la documentación emplearemos los archivos</p>
 <ul>
@@ -55,7 +55,7 @@ Guía <a href="http://aprendegit.com/que-es-git-flow/">Gitflow</a></p>
 <p><a href="https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/components/documentation/CHANGELOG-BASIC.md">Basic Changelog</a></p>
 <p><a href="https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/components/documentation/README-BASIC.md">Basic Readme</a></p>
 <h3 id="definición-para-los-workspace-empleados-en-el-desarrollo">Definición para los workspace empleados en el desarrollo</h3>
-<p>Se plantea la siguiente estructura, donde <strong>exito</strong> es el workspace principal o productivo, el workspace <strong>develop</strong> es el workspace pre productivo y los workspaces <strong>qa1, qa2, qa3</strong> son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizara sus validaciones técnicas y el tipo de desarrollo que esta realizando en ese momento.</p>
+<p>Se plantea la siguiente estructura, donde <strong>exito</strong> es el workspace principal o productivo, el workspace <strong>develop</strong> es el workspace pre productivo y los workspaces <strong>qa1, qa2, qa3</strong> son los workspace destinados para los equipos de SQA para realizar las validaciones de los desarrollos que se planteen para el sprint. Cada desarrollador deberá de crear su workspace definiendo el equipo de SQA que realizará sus validaciones técnicas y el tipo de desarrollo que está realizando en ese momento.</p>
 <h4 id="ejemplo">Ejemplo:</h4>
 <ul>
 <li><strong>qa1_header–exito.myvtex.com</strong><br>
@@ -135,13 +135,13 @@ vtex infra update
 <li><a href="https://github.com/vtex-apps/minicart">Vtex Minicart</a></li>
 </ul>
 <ol start="2">
-<li><em>*propTypes</em> : Permite tipar los datos y definir de que tipo son cada uno de los atributos pasados por las props del componente</li>
+<li><em>*propTypes</em> : Permite tipar los datos y definir de qué tipo son cada uno de los atributos pasados por las props del componente</li>
 </ol>
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token function">import</span> PropTypes from <span class="token string">'prop-types'</span>
 ClassName.propTypes <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre>
 <ol start="3">
-<li>defaultProps_ : Permite definir cual va a ser el valor por defecto para nuestros atributos pasados por los props del componente.</li>
+<li>defaultProps_ : Permite definir cuál va a ser el valor por defecto para nuestros atributos pasados por los props del componente.</li>
 </ol>
 <pre class=" language-bash"><code class="prism  language-bash">ClassName.defaultProps <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre>
@@ -158,20 +158,20 @@ info: You can now check your changes before publishing them
 info: If everything is fine, promote with vtex promote
 </code></pre>
 <ol start="2">
-<li><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes</li>
+<li><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vayamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes</li>
 </ol>
 <ol start="3">
-<li><code>vtex promote</code> Promovemos el workspace actual a ser una integración con el master, este paso eliminara el workspace actual.</li>
+<li><code>vtex promote</code> Promovemos el workspace actual a ser una integración con el master, este paso eliminará el workspace actual.</li>
 </ol>
-<h2 id="como-publicar-una-aplicación">Como publicar una aplicación</h2>
+<h2 id="cómo-publicar-una-aplicación">Cómo publicar una aplicación</h2>
 <ol>
 <li><code>vtex workspace production true</code> Cambiamos el modo producción del workspace a true</li>
 </ol>
 <ol start="2">
-<li><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vallamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes, ademas se debe de tener en cuenta la versión de la aplicación.</li>
+<li><code>vtex publish [path]</code> Publicar todos los componentes o los componentes que vayamos a emplear, para realizar la publicación de un componente debemos de tener en cuenta el orden de importancia de los componentes. de lo contrario obtendremos error al subir los componentes, además se debe de tener en cuenta la versión de la aplicación.</li>
 </ol>
 <ol start="3">
-<li>Luego de publicar los componentes, volvemos a indicar que el workspace esta en modo desarrollo <code>vtex workspace production false</code></li>
+<li>Luego de publicar los componentes, volvemos a indicar que el workspace está en modo desarrollo <code>vtex workspace production false</code></li>
 </ol>
 <p><em>Nota</em>:  Podemos realizar la publicación directa en el workspace master.</p>
 <h2 id="integración-continua">Integración continua</h2>
