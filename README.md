@@ -175,6 +175,8 @@ info: If everything is fine, promote with vtex promote
 </ol>
 <p><em>Nota</em>:  Podemos realizar la publicación directa en el workspace master.</p>
 <h2 id="integración-continua">Integración continua</h2>
+<h4 id="explicación-del-flujo-que-se-realiza-para-publicar-un-componente.">Explicación del flujo que se realiza para publicar un componente.</h4>
+<p><img src="https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/images/Continuos%20Integration%20Vtex%20AWS.png?raw=true" alt="Flujo actual para realizar el proceso de integración continua"></p>
 <h4 id="comandos-a-emplear">Comandos a emplear:</h4>
 <ol>
 <li>
