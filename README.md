@@ -192,4 +192,17 @@ info: If everything is fine, promote with vtex promote
 <li><a href="https://console.aws.amazon.com/codesuite/codebuild/projects/exito-vtex-deploy-develop/history?region=us-east-1">exito-vtex-deploy-develop</a>:  Empleado para hacer el build del branch develop</li>
 <li><a href="https://console.aws.amazon.com/codesuite/codebuild/projects/exito-vtex-deploy-master/history?region=us-east-1">exito-vtex-deploy-master</a>: Empleado para hacer el build del branch master</li>
 </ul>
+<h2 id="cambios-que-se-deben-de-realizar-en-los-proyectos">Cambios que se deben de realizar en los proyectos</h2>
+<h4 id="cambios-para-el-sonar.scanner">Cambios para el sonar.scanner</h4>
+<blockquote>
+<p>Se deben de comentar las keys de login para sonarqube. ya que esto se agrega automaticamente con la cli de exito</p>
+</blockquote>
+<h4 id="la-carpeta-config-ya-no-se-usa-y-se-debe-eliminar">La carpeta config ya no se usa y se debe eliminar</h4>
+<blockquote>
+<p>El proceso de integración continua ya no necesita que se tenga la carpeta config con los archivos de configuración, por lo que se debe de eliminar del proyecto.</p>
+</blockquote>
+<h4 id="cambios-en-jest-coverage">Cambios en jest Coverage</h4>
+<blockquote>
+<p>Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.</p>
+</blockquote>
 
