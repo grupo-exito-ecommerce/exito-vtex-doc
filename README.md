@@ -183,7 +183,7 @@ info: If everything is fine, promote with vtex promote
 <p><code>generate trigger &lt;arn&gt;</code>: Comando que genera un archivo <code>.json</code> que contiene la configuración para agregar los trigger necesarios para realizar la comunicación con el CodeBuild de <code>develop</code> o <code>master</code>.</p>
 </li>
 <li>
-<p><code>infra update_triggers</code>: Comando que se encarga de leer el directorio actual y permitir realizar la ejecución  de los archivos <code>.json</code> que contienen la configuración para actualizar o agregar los triggers de un repositorio.</p>
+<p><code>run triggers</code>: Comando que se encarga de leer el directorio actual y permitir realizar la ejecución  de los archivos <code>.json</code> que contienen la configuración para actualizar o agregar los triggers de un repositorio.</p>
 </li>
 </ol>
 <h4 id="como-puedo-verificar-el-build-realizado-cuando-realice-un-push-a-los-branchs-developy-master">Como puedo verificar el build realizado cuando realice un push a los branchs <code>develop</code>y <code>master</code></h4>
