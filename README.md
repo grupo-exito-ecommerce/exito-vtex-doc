@@ -4,7 +4,8 @@
 ---
 
 <h1 id="administración-de-landings-en-vtex">Administración de landings en Vtex</h1>
-<p><a href="https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/landing-creation/landing-creation.md">Guía para la creación de una landing</a></p>
+<p><a href="https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/directory/landing-creation/landing-creation.md">Guía para la creación de una landing</a><br>
+<a href="https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/landing/new-landing.html">Descarga</a> el archivo HTML base para la creación de una landing</p>
 <h1 id="éxito-vtex-io">Éxito (Vtex IO)</h1>
 <p>Esta documentación es una guía para el desarrollo con <strong>Vtex IO</strong></p>
 <p><a href="#recursos-necesarios">Recursos necesarios</a><br>
