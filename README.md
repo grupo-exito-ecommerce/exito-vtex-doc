@@ -124,7 +124,6 @@ para la configuración necesaria para el storefront se necesitan tres métodos d
 Ejemplos donde se emplean esquemas en los componentes:
 
 *   [Vtex Carousel](https://github.com/vtex-apps/carousel)
-
 *   [Vtex Minicart](https://github.com/vtex-apps/minicart)
 
 1.  _*propTypes_ : Permite tipar los datos y definir de qué tipo son cada uno de los atributos pasados por las props del componente
@@ -199,5 +198,5 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc4MTkxOTYsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbLTk5NDY5OTk0NiwyNzE4Mzc5NjRdfQ==
 -->
