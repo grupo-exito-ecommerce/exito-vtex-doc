@@ -116,26 +116,18 @@ Las siguientes dependencias permiten agregar comportamientos como el admin pages
 para la configuración necesaria para el storefront se necesitan tres métodos dentro de nuestro componente:
 
 1.  _*getSchema_ : Define los diferentes atributos que se le pasarán al componente por medio de las propiedades.
-
+```bash
     ClassName.getSchema = () => {
     return {}
     };
+```
 
 Ejemplos donde se emplean esquemas en los componentes:
 
 *   [Vtex Carousel](https://github.com/vtex-apps/carousel)
 *   [Vtex Minicart](https://github.com/vtex-apps/minicart)
 
-1.  _*propTypes_ : Permite tipar los datos y definir de qué tipo son cada uno de los atributos pasados por las props del componente
-
-    import PropTypes from 'prop-types'
-    ClassName.propTypes = {};
-
-1.  defaultProps_ : Permite definir cuál va a ser el valor por defecto para nuestros atributos pasados por los props del componente.
-
-    ClassName.defaultProps = {};
-
-Estos tres métodos son empleados por Vtex para la creación de las opciones del storeFront
+Este método es empleado por Vtex para la creación de las opciones del storeFront
 
 Ejemplo [aquí](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/examples/components/schema-examples/basic-shecma-js.js)
 
@@ -198,5 +190,5 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDY5OTk0NiwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
 -->
