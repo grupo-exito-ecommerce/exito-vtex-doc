@@ -253,7 +253,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 Para realizar el proceso de creación de los branchs en todos los proyectos se corre el siguiente comando.
 
-` exito aws rgc 'git checkout -b name-branch'`
+`exito aws rgc 'git checkout -b name-branch'`
 
 Para pasar los comandos de git, encerramos los comandos en comillas simples para poder indicar los comandos a ejecutar.
 
@@ -299,8 +299,8 @@ Para realizar la eliminación de un branch en todos los proyectos podemos emplea
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjUwODAwNSwtMTU0OTExMzA1MSw1ND
-gwNDQzMjUsLTE1MDY3NDQxNDQsMzAxMDg2MjAxLC0xMzMyMTQ3
-MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1ODIsLT
-Y3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbNjcxOTQ3MTk5LC0xNTQ5MTEzMDUxLDU0OD
+A0NDMyNSwtMTUwNjc0NDE0NCwzMDEwODYyMDEsLTEzMzIxNDcy
+NDEsLTUxNDczMTQ4MywxMDUwMTAzNDEsMTE1MzMxNDU4MiwtNj
+c3OTA4NTQ4LDI3MTgzNzk2NF19
 -->
