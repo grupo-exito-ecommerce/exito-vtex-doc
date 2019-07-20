@@ -233,7 +233,7 @@ Para realizar el proceso de creación de los branchs en todos los proyectos se c
 
 `exito aws rgc git checkout -b name-branch`
 
-Se puede indicar 
+Se puede indicar el nombre del branch de la siguiente forma:
 
 `name-branch`
 `feature/name-branch`
@@ -268,7 +268,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDE4MTI3NiwtMTMzMjE0NzI0MSwtNT
-E0NzMxNDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgyLC02Nzc5MDg1
-NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbMzAxMDg2MjAxLC0xMzMyMTQ3MjQxLC01MT
+Q3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1ODIsLTY3NzkwODU0
+OCwyNzE4Mzc5NjRdfQ==
 -->
