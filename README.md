@@ -227,9 +227,13 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 ## Proceso para la actualización de dependencias
 
 1. Creación del branch en el que se realizaran los cambios
-`aws createBranch <branch>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de crear un branch con el nombre indicado
+`aws runGitCommand <commandTouse>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de correr el comando de git indicado
 
-Se puede indicar el nombre del branch de la siguiente forma
+Para realizar el proceso de creación de los branchs en todos los proyectos se correo el siguiente comando
+
+`exito aws rgc git checkout -b name-branch`
+
+Se puede indicar 
 
 `name-branch`
 `feature/name-branch`
@@ -264,7 +268,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzIxNDcyNDEsLTUxNDczMTQ4MywxMD
-UwMTAzNDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2
-NF19
+eyJoaXN0b3J5IjpbMTAxNDE4MTI3NiwtMTMzMjE0NzI0MSwtNT
+E0NzMxNDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgyLC02Nzc5MDg1
+NDgsMjcxODM3OTY0XX0=
 -->
