@@ -226,7 +226,16 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 ## Proceso para la actualización de dependencias
 
-1. Creación de un archivo con las ultimas versiones de las dependencias
+1. Creación del branch en el que se realizaran los cambios
+`aws createBranch <branch>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de crear un branch con el nombre indicado
+
+Se puede indicar el nombre del branch de la siguiente forma
+
+`name-branch`
+`feature/name-branch`
+`hotfix/name-branch` 
+
+2. Creación de un archivo con las ultimas versiones de las dependencias
 
 `vtex deps list > current-dependencies.json`
 
@@ -255,6 +264,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDczMTQ4MywxMDUwMTAzNDEsMTE1Mz
-MxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2NF19
+eyJoaXN0b3J5IjpbLTEzMzIxNDcyNDEsLTUxNDczMTQ4MywxMD
+UwMTAzNDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2
+NF19
 -->
