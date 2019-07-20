@@ -222,6 +222,17 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 *   [exito-vtex-deploy-develop](https://console.aws.amazon.com/codesuite/codebuild/projects/exito-vtex-deploy-develop/history?region=us-east-1): Empleado para hacer el build del branch develop
 *   [exito-vtex-deploy-master](https://console.aws.amazon.com/codesuite/codebuild/projects/exito-vtex-deploy-master/history?region=us-east-1): Empleado para hacer el build del branch master
 
+
+
+## Proceso para la actualización de dependencias
+
+1. Creación de un archivo con las ultimas versiones de las dependencias
+
+`vtex deps list > current-dependencies.json`
+
+Para estar seguros de tener las ultimas versiones en este archivo se
+
+
 ## Cambios que se deben de realizar en los proyectos
 
 #### Cambios para el sonar.scanner
@@ -236,6 +247,6 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzY1OTA1NywxMTUzMzE0NTgyLC02Nz
+eyJoaXN0b3J5IjpbLTQwNzAzMjkzMSwxMTUzMzE0NTgyLC02Nz
 c5MDg1NDgsMjcxODM3OTY0XX0=
 -->
