@@ -284,6 +284,12 @@ Para realizar la eliminación de un branch en todos los proyectos podemos emplea
   
 `exito aws rgc 'git branch -D feature/deps-update'`
 
+#### Preparar los cambios realizados
+
+para preparar los cambios realizados se puede emplear la siguiente combinación de comandos
+
+` exito aws rgc 'git add . && git commit -m "Update dependencies"'`
+
 
 ## Cambios que se deben de realizar en los proyectos
 
@@ -299,8 +305,8 @@ Para realizar la eliminación de un branch en todos los proyectos podemos emplea
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxOTQ3MTk5LC0xNTQ5MTEzMDUxLDU0OD
-A0NDMyNSwtMTUwNjc0NDE0NCwzMDEwODYyMDEsLTEzMzIxNDcy
-NDEsLTUxNDczMTQ4MywxMDUwMTAzNDEsMTE1MzMxNDU4MiwtNj
-c3OTA4NTQ4LDI3MTgzNzk2NF19
+eyJoaXN0b3J5IjpbMTMxNzAyNTk2NSw2NzE5NDcxOTksLTE1ND
+kxMTMwNTEsNTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMTA4NjIw
+MSwtMTMzMjE0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0MSwxMT
+UzMzE0NTgyLC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
 -->
