@@ -234,7 +234,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 2. Creación del archivo de configuración que contendrá las últimas versiones a emplear en la actualización
 
-`generate configDependencies <criteria>`: Comando que toma el archivo current-dependencies.json 
+`generate configDependencies <criteria>`: Comando que toma el archivo `current-dependencies.json` del directorio actual y genera un archivo  `update-dependencies.json` con las dependencias filtradas y el formato igual al de el atributo `dependencies` del archivo `manifest.json`
 
 
 ## Cambios que se deben de realizar en los proyectos
@@ -251,6 +251,6 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTcxMDExMSwxMTUzMzE0NTgyLC02Nz
-c5MDg1NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbNjIxMTYwOTAsMTE1MzMxNDU4MiwtNjc3OT
+A4NTQ4LDI3MTgzNzk2NF19
 -->
