@@ -280,7 +280,9 @@ Para remover todos los cambios realizados y volver a dejar los proyectos en su u
 
 #### Eliminar branchs de los proyectos
 
-`exito aws rgc 'git checkout -b develop &&  git pull'`
+Para realizar la eliminación de un branch en todos los proyectos podemos emplear la siguiente combinación de comandos.
+
+`exito aws rgc 'git branch -D feature/deps-update'`
 
 
 ## Cambios que se deben de realizar en los proyectos
@@ -297,7 +299,8 @@ Para remover todos los cambios realizados y volver a dejar los proyectos en su u
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMT
-A4NjIwMSwtMTMzMjE0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0
-MSwxMTUzMzE0NTgyLC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbLTE1NDkxMTMwNTEsNTQ4MDQ0MzI1LC0xNT
+A2NzQ0MTQ0LDMwMTA4NjIwMSwtMTMzMjE0NzI0MSwtNTE0NzMx
+NDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgyLC02Nzc5MDg1NDgsMj
+cxODM3OTY0XX0=
 -->
