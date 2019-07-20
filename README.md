@@ -164,10 +164,26 @@ _Nota_: Podemos realizar la publicación directa en el workspace master.
 ![Flujo actual para realizar el proceso de integración continua](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/images/Continuos%20Integration%20Vtex%20AWS.png?raw=true)
 
 #### Comandos a emplear:
+1. `generate triggerConfig`: Comando que genera un archivo base con la configuración para los triggers.
 
-1.  `generate trigger <arn>`: Comando que genera un archivo `.json` que contiene la configuración para agregar los trigger necesarios para realizar la comunicación con el CodeBuild de `develop` o `master`.
+```
+[{
+"name": "develop",
+"customData": {
+"code_build": "exito-vtex-deploy-develop",
+"vendor": "exito",
+"workspace": "dev",
+"code_commit_branch": "develop",
+"url_to_clone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos"
+}
+}
 
-2.  `run triggers`: Comando que se encarga de leer el directorio actual y permitir realizar la ejecución de los archivos `.json` que contienen la configuración para actualizar o agregar los triggers de un repositorio.
+]
+```
+
+2.  `generate trigger <arn>`: Comando que genera un archivo `.json` que contiene la configuración para agregar los trigger necesarios para realizar la comunicación con el CodeBuild de `develop` o `master`.
+
+3.  `run triggers`: Comando que se encarga de leer el directorio actual y permitir realizar la ejecución de los archivos `.json` que contienen la configuración para actualizar o agregar los triggers de un repositorio.
 
 #### Como puedo verificar el build realizado cuando realice un push a los branchs `develop`y `master`
 
@@ -190,5 +206,6 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbMjExNzkwMzg0MiwtNjc3OTA4NTQ4LDI3MT
+gzNzk2NF19
 -->
