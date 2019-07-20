@@ -247,7 +247,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 ## Preparación del branch de los proyectos
 
 
-1. Creación del branch en el que se realizarán los cambios
+#### Creación del branch en el que se realizarán los cambios
 
 `aws runGitCommand <commandTouse>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de correr el comando de git indicado.
 
@@ -263,6 +263,16 @@ Se puede indicar el nombre del branch de la siguiente forma:
 `feature/name-branch`
 `hotfix/name-branch`
 
+#### Switch entre branchs
+
+Para realizar el cambio entre branchs de todos los proyectos puede emplear la combinación de comandos de git para hacerlo
+
+`exito aws rgc 'git checkout develop &&  git pull'`
+
+Si el branch que se indica no existe, puede emplear `-b` para realizar la creación
+`exito aws rgc 'git checkout -b develop &&  git pull'`
+
+
 ## Cambios que se deben de realizar en los proyectos
 
 #### Cambios para el sonar.scanner
@@ -277,7 +287,7 @@ Se puede indicar el nombre del branch de la siguiente forma:
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDY3NDQxNDQsMzAxMDg2MjAxLC0xMz
-MyMTQ3MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1
-ODIsLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbMTkxMTgwMzE3MiwtMTUwNjc0NDE0NCwzMD
+EwODYyMDEsLTEzMzIxNDcyNDEsLTUxNDczMTQ4MywxMDUwMTAz
+NDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2NF19
 -->
