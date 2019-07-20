@@ -183,7 +183,7 @@ Para crear diferentes triggers en un solo proyecto es necesario copiar la config
 
 El atributo `url_to_clone` no se debe de cambiar, este es el endpoint para el repositorio de aws code commit
 
-## Ejemplo
+### Ejemplo
 
 ``` json
 [{
@@ -195,8 +195,21 @@ El atributo `url_to_clone` no se debe de cambiar, este es el endpoint para el re
 	"code_commit_branch": "develop",
 	"url_to_clone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos"
 	}
+},
+{
+"name": "master",
+"customData": {
+	"code_build": "exito-vtex-deploy-master",
+	"vendor": "exito",
+	"workspace": "master",
+	"code_commit_branch": "master",
+	"url_to_clone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos"
+	}
 }]
 ```
+
+Con esta configuración se generarán dos triggers apuntando a diferentes branchs y llamando a diferentes codebuild. además de realizar un proceso de login en un workspace llamado `dev` y otro `master`
+
 
 2.  `generate trigger <arn>`: Comando que genera un archivo `.json` que contiene la configuración para agregar los trigger necesarios para realizar la comunicación con el CodeBuild de `develop` o `master`.
 
@@ -223,6 +236,6 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTk5MjAzLDExNTMzMTQ1ODIsLTY3Nz
-kwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbMjAxNzY1OTA1NywxMTUzMzE0NTgyLC02Nz
+c5MDg1NDgsMjcxODM3OTY0XX0=
 -->
