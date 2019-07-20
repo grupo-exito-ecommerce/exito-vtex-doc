@@ -226,22 +226,8 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 ## Proceso para la actualización de dependencias
 
-1. Creación del branch en el que se realizaran los cambios
-`aws runGitCommand <commandTouse>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de correr el comando de git indicado
 
-Para realizar el proceso de creación de los branchs en todos los proyectos se correo el siguiente comando
-
-` exito aws rgc 'git checkout -b name-branch'`
-
-Para pasar los comandos de git, encerramos los comandos en comillas simples para poder indicar los comandos a ejecutar.
-
-Se puede indicar el nombre del branch de la siguiente forma:
-
-`name-branch`
-`feature/name-branch`
-`hotfix/name-branch` 
-
-2. Creación de un archivo con las ultimas versiones de las dependencias
+1. Creación de un archivo con las ultimas versiones de las dependencias
 
 `vtex deps list > current-dependencies.json`
 
@@ -256,6 +242,35 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 3. Ejecución del proceso para actualizar las dependencias
 `run overWriteDependencies <criteria>`: Comando que toma el archivo `update-dependencies.json` en el directorio actual y luego se encarga de buscar todos los proyectos que hayan en el directorio para listarlos y permitir la selección de los proyectos a actualizar. luego de seleccionar los proyectos se pasa a realizar una validación para saber si poseen cambios a nivel de dependencias y de ser así se pasa a actualizar las dependencias encontradas. este proceso actualiza un dígito la versión del proyecto y genera un mensaje en el archivo `CHANGELOG.md` indicanto que cambios se realizaron.
 > Ejemplo: `exito run ov vtex. --verbose` 
+
+
+## Preparación del branch de los proyectos
+
+
+1. Creación del branch en el que se realizarán los cambios
+
+`aws runGitCommand <commandTouse>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de correr el comando de git indicado
+
+  
+
+Para realizar el proceso de creación de los branchs en todos los proyectos se corre el siguiente comando
+
+` exito aws rgc 'git checkout -b name-branch'`
+
+Para pasar los comandos de git, encerramos los comandos en comillas simples para poder indicar los comandos a ejecutar.
+
+  
+
+Se puede indicar el nombre del branch de la siguiente forma:
+
+  
+
+`name-branch`
+
+`feature/name-branch`
+
+`hotfix/name-branch`
+
 ## Cambios que se deben de realizar en los proyectos
 
 #### Cambios para el sonar.scanner
@@ -270,7 +285,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2MDQxMTQyLDMwMTA4NjIwMSwtMTMzMj
-E0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgy
-LC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbLTIxMDY2MjA2MzQsMzAxMDg2MjAxLC0xMz
+MyMTQ3MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1
+ODIsLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
 -->
