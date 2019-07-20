@@ -236,6 +236,11 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 `generate configDependencies <criteria>`: Comando que toma el archivo `current-dependencies.json` del directorio actual y genera un archivo  `update-dependencies.json` con las dependencias filtradas y el formato igual al de el atributo `dependencies` del archivo `manifest.json`
 
+> ejemplo: `exito generate cd vtex.`: genera el archivo con todas la dependencias que coincidan con el criterio indicado `vtex.` 
+
+3. Ejecución del proceso para actualizar las dependencias
+`run overWriteDependencies <criteria>`
+
 
 ## Cambios que se deben de realizar en los proyectos
 
@@ -251,6 +256,6 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMTYwOTAsMTE1MzMxNDU4MiwtNjc3OT
-A4NTQ4LDI3MTgzNzk2NF19
+eyJoaXN0b3J5IjpbMTAxNTIzNTAyOCwxMTUzMzE0NTgyLC02Nz
+c5MDg1NDgsMjcxODM3OTY0XX0=
 -->
