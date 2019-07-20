@@ -163,7 +163,7 @@ _Nota_: Podemos realizar la publicación directa en el workspace master.
 
 ![Flujo actual para realizar el proceso de integración continua](https://github.com/grupo-exito-ecommerce/exito-vtex-doc/blob/master/resources/images/Continuos%20Integration%20Vtex%20AWS.png?raw=true)
 
-#### Comandos a emplear:
+## Creación de los triggers para los proyectos:
 1. `generate triggerConfig`: Comando que genera un archivo base con la configuración para los triggers.
 
 ``` json
@@ -183,7 +183,7 @@ Para crear diferentes triggers en un solo proyecto es necesario copiar la config
 
 El atributo `url_to_clone` no se debe de cambiar, este es el endpoint para el repositorio de aws code commit
 
-### Ejemplo
+##### Ejemplo
 
 ``` json
 [{
@@ -215,7 +215,7 @@ Con esta configuración se generarán dos triggers apuntando a diferentes branch
 
 3.  `run triggers`: Comando que se encarga de leer el directorio actual y permitir realizar la ejecución de los archivos `.json` que contienen la configuración para actualizar o agregar los triggers de un repositorio.
 
-#### Como puedo verificar el build realizado cuando realice un push a los branchs `develop`y `master`
+### Como puedo verificar el build realizado cuando realice un push a los branchs `develop`y `master`
 
 En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos para realizar el build de nuestros componentes
 
@@ -315,9 +315,9 @@ Pueden emplear la siguiente combinación
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjEwMDc0OCwzNTM4MDEwNiwyNTU3Nz
-M3MjQsMTMxNzAyNTk2NSw2NzE5NDcxOTksLTE1NDkxMTMwNTEs
-NTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMTA4NjIwMSwtMTMzMj
-E0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgy
-LC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbLTEwNTMzNzMxMDIsLTQ4NjEwMDc0OCwzNT
+M4MDEwNiwyNTU3NzM3MjQsMTMxNzAyNTk2NSw2NzE5NDcxOTks
+LTE1NDkxMTMwNTEsNTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMT
+A4NjIwMSwtMTMzMjE0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0
+MSwxMTUzMzE0NTgyLC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
 -->
