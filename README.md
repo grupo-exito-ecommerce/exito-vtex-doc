@@ -263,13 +263,23 @@ Se puede indicar el nombre del branch de la siguiente forma:
 `feature/name-branch`
 `hotfix/name-branch`
 
-#### Switch entre branchs
+#### Cambiar entre branchs
 
 Para realizar el cambio entre branchs de todos los proyectos puede emplear la combinación de comandos de git para hacerlo
 
 `exito aws rgc 'git checkout develop &&  git pull'`
 
 Si el branch que se indica no existe, puede emplear `-b` para realizar la creación
+`exito aws rgc 'git checkout -b develop &&  git pull'`
+
+#### Descartar los cambios realizados
+
+Para remover todos los cambios realizados y volver a dejar los proyectos en su ultima versión puede correr la siguiente combinación de comandos
+
+`exito aws rgc 'git checkout -b develop &&  git pull `
+
+#### Eliminar branchs de los proyectos
+
 `exito aws rgc 'git checkout -b develop &&  git pull'`
 
 
@@ -287,7 +297,8 @@ Si el branch que se indica no existe, puede emplear `-b` para realizar la creaci
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTgwMzE3MiwtMTUwNjc0NDE0NCwzMD
-EwODYyMDEsLTEzMzIxNDcyNDEsLTUxNDczMTQ4MywxMDUwMTAz
-NDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2NF19
+eyJoaXN0b3J5IjpbLTE5Njc3NTUzNTcsLTE1MDY3NDQxNDQsMz
+AxMDg2MjAxLC0xMzMyMTQ3MjQxLC01MTQ3MzE0ODMsMTA1MDEw
+MzQxLDExNTMzMTQ1ODIsLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ
+==
 -->
