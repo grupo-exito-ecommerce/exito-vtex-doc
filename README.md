@@ -291,6 +291,10 @@ para preparar los cambios realizados se puede emplear la siguiente combinación 
 ` exito aws rgc 'git add . && git commit -m "Update dependencies"'`
 
 
+#### Realizar merge entre el branch creado y un branch indicado
+
+`exito aws rgc 'git add . && git commit -m "Merge feature/deps-update into develop" && git merge feature/deps-update'`
+
 ## Cambios que se deben de realizar en los proyectos
 
 #### Cambios para el sonar.scanner
@@ -305,8 +309,9 @@ para preparar los cambios realizados se puede emplear la siguiente combinación 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzAyNTk2NSw2NzE5NDcxOTksLTE1ND
-kxMTMwNTEsNTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMTA4NjIw
-MSwtMTMzMjE0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0MSwxMT
-UzMzE0NTgyLC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbMjU1NzczNzI0LDEzMTcwMjU5NjUsNjcxOT
+Q3MTk5LC0xNTQ5MTEzMDUxLDU0ODA0NDMyNSwtMTUwNjc0NDE0
+NCwzMDEwODYyMDEsLTEzMzIxNDcyNDEsLTUxNDczMTQ4MywxMD
+UwMTAzNDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2
+NF19
 -->
