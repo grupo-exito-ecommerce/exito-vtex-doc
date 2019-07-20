@@ -293,7 +293,13 @@ para preparar los cambios realizados se puede emplear la siguiente combinación 
 
 #### Realizar merge entre el branch creado y un branch indicado
 
-`exito aws rgc 'git add . && git commit -m "Merge feature/deps-update into develop" && git merge feature/deps-update'`
+`exito aws rgc 'git add . && git commit -m "Merge feature/deps-update into develop" && git merge -X theirs feature/deps-update'`
+
+#### Subir los cambios realizados
+
+Pueden emplear la siguiente combinación
+
+`exito aws rgc 'git  push'`
 
 ## Cambios que se deben de realizar en los proyectos
 
@@ -309,9 +315,9 @@ para preparar los cambios realizados se puede emplear la siguiente combinación 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzODAxMDYsMjU1NzczNzI0LDEzMTcwMj
-U5NjUsNjcxOTQ3MTk5LC0xNTQ5MTEzMDUxLDU0ODA0NDMyNSwt
-MTUwNjc0NDE0NCwzMDEwODYyMDEsLTEzMzIxNDcyNDEsLTUxND
-czMTQ4MywxMDUwMTAzNDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4
-LDI3MTgzNzk2NF19
+eyJoaXN0b3J5IjpbLTQ4NjEwMDc0OCwzNTM4MDEwNiwyNTU3Nz
+M3MjQsMTMxNzAyNTk2NSw2NzE5NDcxOTksLTE1NDkxMTMwNTEs
+NTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMTA4NjIwMSwtMTMzMj
+E0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgy
+LC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
 -->
