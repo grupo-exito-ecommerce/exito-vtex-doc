@@ -230,7 +230,9 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 `vtex deps list > current-dependencies.json`
 
-Para estar seguros de tener las ultimas versiones en este archivo se
+Para estar seguros de tener las últimas versiones en este archivo, se recomienda previamente correr en el worskpace que se esté trabajando el comando `vtex deps update` con esto actualizamos todas las dependencias a su última versión
+
+2. Creación del archivo de configuración que contendrá las últimas versiones a emplear en la actualización
 
 
 ## Cambios que se deben de realizar en los proyectos
@@ -247,6 +249,6 @@ Para estar seguros de tener las ultimas versiones en este archivo se
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzAzMjkzMSwxMTUzMzE0NTgyLC02Nz
+eyJoaXN0b3J5IjpbLTE0MjA2NzkxMSwxMTUzMzE0NTgyLC02Nz
 c5MDg1NDgsMjcxODM3OTY0XX0=
 -->
