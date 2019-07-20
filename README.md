@@ -175,10 +175,8 @@ _Nota_: Podemos realizar la publicación directa en el workspace master.
 "workspace": "dev",
 "code_commit_branch": "develop",
 "url_to_clone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos"
-}
-}
-
-]
+	}
+}]
 ```
 
 2.  `generate trigger <arn>`: Comando que genera un archivo `.json` que contiene la configuración para agregar los trigger necesarios para realizar la comunicación con el CodeBuild de `develop` o `master`.
@@ -206,6 +204,6 @@ En el servicio de Amazon de CodeBuild pueden encontrar los siguientes proyectos 
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzkwMzg0MiwtNjc3OTA4NTQ4LDI3MT
+eyJoaXN0b3J5IjpbMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MT
 gzNzk2NF19
 -->
