@@ -249,26 +249,18 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 1. Creación del branch en el que se realizarán los cambios
 
-`aws runGitCommand <commandTouse>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de correr el comando de git indicado
+`aws runGitCommand <commandTouse>` comando que permite seleccionar los proyectos en el directorio actual y se encarga de correr el comando de git indicado.
 
-  
-
-Para realizar el proceso de creación de los branchs en todos los proyectos se corre el siguiente comando
+Para realizar el proceso de creación de los branchs en todos los proyectos se corre el siguiente comando.
 
 ` exito aws rgc 'git checkout -b name-branch'`
 
 Para pasar los comandos de git, encerramos los comandos en comillas simples para poder indicar los comandos a ejecutar.
 
-  
-
 Se puede indicar el nombre del branch de la siguiente forma:
 
-  
-
 `name-branch`
-
 `feature/name-branch`
-
 `hotfix/name-branch`
 
 ## Cambios que se deben de realizar en los proyectos
@@ -285,7 +277,7 @@ Se puede indicar el nombre del branch de la siguiente forma:
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY2MjA2MzQsMzAxMDg2MjAxLC0xMz
+eyJoaXN0b3J5IjpbLTE1MDY3NDQxNDQsMzAxMDg2MjAxLC0xMz
 MyMTQ3MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1
 ODIsLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
 -->
