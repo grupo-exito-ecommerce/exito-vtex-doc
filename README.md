@@ -240,7 +240,7 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 3. Ejecución del proceso para actualizar las dependencias
 `run overWriteDependencies <criteria>`: Comando que toma el archivo `update-dependencies.json` en el directorio actual y luego se encarga de buscar todos los proyectos que hayan en el directorio para listarlos y permitir la selección de los proyectos a actualizar. luego de seleccionar los proyectos se pasa a realizar una validación para saber si poseen cambios a nivel de dependencias y de ser así se pasa a actualizar las dependencias encontradas. este proceso actualiza un dígito la versión del proyecto y genera un mensaje en el archivo `CHANGELOG.md` indicanto que cambios se realizaron.
-
+> Ejemplo: `exito run ov vtex. --verbose` 
 ## Cambios que se deben de realizar en los proyectos
 
 #### Cambios para el sonar.scanner
@@ -255,6 +255,6 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDEwMzQxLDExNTMzMTQ1ODIsLTY3Nz
-kwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbLTUxNDczMTQ4MywxMDUwMTAzNDEsMTE1Mz
+MxNDU4MiwtNjc3OTA4NTQ4LDI3MTgzNzk2NF19
 -->
