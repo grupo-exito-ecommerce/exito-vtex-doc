@@ -240,8 +240,11 @@ Para estar seguros de tener las últimas versiones en este archivo, se recomiend
 > ejemplo: `exito generate cd vtex.`: genera el archivo con todas la dependencias que coincidan con el criterio indicado `vtex.` 
 
 3. Ejecución del proceso para actualizar las dependencias
-`run overWriteDependencies <criteria>`: Comando que toma el archivo `update-dependencies.json` en el directorio actual y luego se encarga de buscar todos los proyectos que hayan en el directorio para listarlos y permitir la selección de los proyectos a actualizar. luego de seleccionar los proyectos se pasa a realizar una validación para saber si poseen cambios a nivel de dependencias y de ser así se pasa a actualizar las dependencias encontradas. este proceso actualiza un dígito la versión del proyecto y genera un mensaje en el archivo `CHANGELOG.md` indicanto que cambios se realizaron.
+`run overWriteDependencies <criteria> [lastVersion]`: Comando que toma el archivo `update-dependencies.json` en el directorio actual y luego se encarga de buscar todos los proyectos que hayan en el directorio para listarlos y permitir la selección de los proyectos a actualizar. luego de seleccionar los proyectos se pasa a realizar una validación para saber si poseen cambios a nivel de dependencias y de ser así se pasa a actualizar las dependencias encontradas. este proceso actualiza un dígito la versión del proyecto y genera un mensaje en el archivo `CHANGELOG.md` indicanto que cambios se realizaron.
+
+>Nota: por defecto el comando trae la ultima versión de la dependencia que posee el proyecto. con el fl
 > Ejemplo: `exito run ov vtex. --verbose` 
+> Ejemplo emplean
 
 
 ## Preparación del branch de los proyectos
@@ -315,9 +318,10 @@ Pueden emplear la siguiente combinación
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTMzNzMxMDIsLTQ4NjEwMDc0OCwzNT
-M4MDEwNiwyNTU3NzM3MjQsMTMxNzAyNTk2NSw2NzE5NDcxOTks
-LTE1NDkxMTMwNTEsNTQ4MDQ0MzI1LC0xNTA2NzQ0MTQ0LDMwMT
-A4NjIwMSwtMTMzMjE0NzI0MSwtNTE0NzMxNDgzLDEwNTAxMDM0
-MSwxMTUzMzE0NTgyLC02Nzc5MDg1NDgsMjcxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbMTYzNTYzNzUzNCwtMTA1MzM3MzEwMiwtND
+g2MTAwNzQ4LDM1MzgwMTA2LDI1NTc3MzcyNCwxMzE3MDI1OTY1
+LDY3MTk0NzE5OSwtMTU0OTExMzA1MSw1NDgwNDQzMjUsLTE1MD
+Y3NDQxNDQsMzAxMDg2MjAxLC0xMzMyMTQ3MjQxLC01MTQ3MzE0
+ODMsMTA1MDEwMzQxLDExNTMzMTQ1ODIsLTY3NzkwODU0OCwyNz
+E4Mzc5NjRdfQ==
 -->
