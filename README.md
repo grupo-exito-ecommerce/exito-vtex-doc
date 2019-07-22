@@ -283,7 +283,7 @@ Si el branch que se indica no existe, puede emplear `-b` para realizar la creaci
 
 Para remover todos los cambios realizados y volver a dejar los proyectos en su ultima versión puede correr la siguiente combinación de comandos
 
-`exito aws rgc 'git reset --hard &&  git pull`
+`exito aws rgc 'git reset --hard &&  git pull'`
 
 #### Eliminar branchs de los proyectos
 
@@ -322,10 +322,10 @@ Pueden emplear la siguiente combinación
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM5NzY1NTAsLTEwNTMzNzMxMDIsLT
-Q4NjEwMDc0OCwzNTM4MDEwNiwyNTU3NzM3MjQsMTMxNzAyNTk2
-NSw2NzE5NDcxOTksLTE1NDkxMTMwNTEsNTQ4MDQ0MzI1LC0xNT
-A2NzQ0MTQ0LDMwMTA4NjIwMSwtMTMzMjE0NzI0MSwtNTE0NzMx
-NDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgyLC02Nzc5MDg1NDgsMj
-cxODM3OTY0XX0=
+eyJoaXN0b3J5IjpbMTU4ODgyODUxMSwtMTA3Mzk3NjU1MCwtMT
+A1MzM3MzEwMiwtNDg2MTAwNzQ4LDM1MzgwMTA2LDI1NTc3Mzcy
+NCwxMzE3MDI1OTY1LDY3MTk0NzE5OSwtMTU0OTExMzA1MSw1ND
+gwNDQzMjUsLTE1MDY3NDQxNDQsMzAxMDg2MjAxLC0xMzMyMTQ3
+MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1ODIsLT
+Y3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
 -->
