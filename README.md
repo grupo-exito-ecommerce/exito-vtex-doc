@@ -1,5 +1,7 @@
 
 
+
+
 --- ---
 
 # Administración de landings en Vtex
@@ -308,6 +310,20 @@ Pueden emplear la siguiente combinación
 
 `exito aws rgc 'git  push'`
 
+### Paso a paso
+
+
+1.  ` vtex workspace reset`
+2. `vtex deps list > current-dependencies.json`
+3. `exito generate configDependencies vtex.`
+4. `exito aws rgc 'git checkout -b feature/exito-cli-update-dependencies'`
+5. ` exito run overWriteDependencies vtex. --verbose`
+6. ` exito aws rgc 'git add . && git commit -m "Update all vtex dependencies in the current data 2019-07-22"'`
+7. ` exito aws rgc 'git push --set-upstream origin feature/exito-cli-update-dependencies'`
+8. `exito aws rgc 'git checkout develop && git pull'`
+9. `exito aws rgc 'git merge -X theirs feature/exito-cli-update-dependencies && git add . && git commit -m "Merge feature/exito-cli-update-dependencies into develop"'`
+10. ` exito aws rgc 'git push'` 
+
 ## Cambios que se deben de realizar en los proyectos
 
 #### Cambios para el sonar.scanner
@@ -321,11 +337,15 @@ Pueden emplear la siguiente combinación
 #### Cambios en jest Coverage
 
 > Se debe de realiza la creación del archivo jest.config.js si no se posee en el proyecto, en este archivo debe de ir la configuración de jest que actualmente algunos projectos lo poseen en el package.json, sin este archivo el proceso de integración continua puede lanzar error.
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODgyODUxMSwtMTA3Mzk3NjU1MCwtMT
-A1MzM3MzEwMiwtNDg2MTAwNzQ4LDM1MzgwMTA2LDI1NTc3Mzcy
-NCwxMzE3MDI1OTY1LDY3MTk0NzE5OSwtMTU0OTExMzA1MSw1ND
-gwNDQzMjUsLTE1MDY3NDQxNDQsMzAxMDg2MjAxLC0xMzMyMTQ3
-MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLDExNTMzMTQ1ODIsLT
-Y3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbLTEzNTA4ODM2MzcsMTU4ODgyODUxMSwtMT
+A3Mzk3NjU1MCwtMTA1MzM3MzEwMiwtNDg2MTAwNzQ4LDM1Mzgw
+MTA2LDI1NTc3MzcyNCwxMzE3MDI1OTY1LDY3MTk0NzE5OSwtMT
+U0OTExMzA1MSw1NDgwNDQzMjUsLTE1MDY3NDQxNDQsMzAxMDg2
+MjAxLC0xMzMyMTQ3MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLD
+ExNTMzMTQ1ODIsLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
 -->
