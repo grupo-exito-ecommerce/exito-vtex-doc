@@ -189,23 +189,27 @@ El atributo `url_to_clone` no se debe de cambiar, este es el endpoint para el re
 
 ``` json
 [{
-"name": "develop",
-"customData": {
-	"code_build": "exito-vtex-deploy-develop",
-	"vendor": "exito",
-	"workspace": "dev",
-	"code_commit_branch": "develop",
-	"url_to_clone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos"
+	"name": "develop",
+	"customData": {
+		"codeBuild": "exito-vtex-deploy-develop",
+		"vendor": "exito",
+		"workspace": "dev",
+		"codeCommitBranch": "develop",
+		"urlToClone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos",
+		"linkCommand": "vtex link",
+		"publishCommand": "'vtex workspace use master && vtex publish --verbose'"
 	}
 },
 {
-"name": "master",
-"customData": {
-	"code_build": "exito-vtex-deploy-master",
-	"vendor": "exito",
-	"workspace": "master",
-	"code_commit_branch": "master",
-	"url_to_clone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos"
+	"name": "master",
+	"customData": {
+		"codeBuild": "exito-vtex-deploy-master",
+		"vendor": "exito",
+		"workspace": "master",
+		"codeCommitBranch": "master",
+		"urlToClone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos",
+		"linkCommand": "vtex link",
+		"publishCommand": "'vtex workspace use master && vtex publish --verbose'"
 	}
 }]
 ```
@@ -342,10 +346,11 @@ Pueden emplear la siguiente combinación
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA4ODM2MzcsMTU4ODgyODUxMSwtMT
-A3Mzk3NjU1MCwtMTA1MzM3MzEwMiwtNDg2MTAwNzQ4LDM1Mzgw
-MTA2LDI1NTc3MzcyNCwxMzE3MDI1OTY1LDY3MTk0NzE5OSwtMT
-U0OTExMzA1MSw1NDgwNDQzMjUsLTE1MDY3NDQxNDQsMzAxMDg2
-MjAxLC0xMzMyMTQ3MjQxLC01MTQ3MzE0ODMsMTA1MDEwMzQxLD
-ExNTMzMTQ1ODIsLTY3NzkwODU0OCwyNzE4Mzc5NjRdfQ==
+eyJoaXN0b3J5IjpbLTQxMjI0NjAwMSwtMTM1MDg4MzYzNywxNT
+g4ODI4NTExLC0xMDczOTc2NTUwLC0xMDUzMzczMTAyLC00ODYx
+MDA3NDgsMzUzODAxMDYsMjU1NzczNzI0LDEzMTcwMjU5NjUsNj
+cxOTQ3MTk5LC0xNTQ5MTEzMDUxLDU0ODA0NDMyNSwtMTUwNjc0
+NDE0NCwzMDEwODYyMDEsLTEzMzIxNDcyNDEsLTUxNDczMTQ4My
+wxMDUwMTAzNDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgz
+Nzk2NF19
 -->
