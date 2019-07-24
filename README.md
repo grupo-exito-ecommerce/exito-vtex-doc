@@ -196,7 +196,7 @@ El atributo `url_to_clone` no se debe de cambiar, este es el endpoint para el re
 		"workspace": "dev",
 		"codeCommitBranch": "develop",
 		"urlToClone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos",
-		"linkCommand": "vtex link",
+		"linkCommand": "'vtex link'",
 		"publishCommand": "'vtex workspace use master && vtex publish --verbose'"
 	}
 },
@@ -208,7 +208,7 @@ El atributo `url_to_clone` no se debe de cambiar, este es el endpoint para el re
 		"workspace": "master",
 		"codeCommitBranch": "master",
 		"urlToClone": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos",
-		"linkCommand": "vtex link",
+		"linkCommand": "'vtex link'",
 		"publishCommand": "'vtex workspace use master && vtex publish --verbose'"
 	}
 }]
@@ -346,11 +346,11 @@ Pueden emplear la siguiente combinación
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjI0NjAwMSwtMTM1MDg4MzYzNywxNT
-g4ODI4NTExLC0xMDczOTc2NTUwLC0xMDUzMzczMTAyLC00ODYx
-MDA3NDgsMzUzODAxMDYsMjU1NzczNzI0LDEzMTcwMjU5NjUsNj
-cxOTQ3MTk5LC0xNTQ5MTEzMDUxLDU0ODA0NDMyNSwtMTUwNjc0
-NDE0NCwzMDEwODYyMDEsLTEzMzIxNDcyNDEsLTUxNDczMTQ4My
-wxMDUwMTAzNDEsMTE1MzMxNDU4MiwtNjc3OTA4NTQ4LDI3MTgz
-Nzk2NF19
+eyJoaXN0b3J5IjpbLTY5MDgxOTc2MSwtNDEyMjQ2MDAxLC0xMz
+UwODgzNjM3LDE1ODg4Mjg1MTEsLTEwNzM5NzY1NTAsLTEwNTMz
+NzMxMDIsLTQ4NjEwMDc0OCwzNTM4MDEwNiwyNTU3NzM3MjQsMT
+MxNzAyNTk2NSw2NzE5NDcxOTksLTE1NDkxMTMwNTEsNTQ4MDQ0
+MzI1LC0xNTA2NzQ0MTQ0LDMwMTA4NjIwMSwtMTMzMjE0NzI0MS
+wtNTE0NzMxNDgzLDEwNTAxMDM0MSwxMTUzMzE0NTgyLC02Nzc5
+MDg1NDhdfQ==
 -->
