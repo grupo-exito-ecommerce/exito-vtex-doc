@@ -13,7 +13,7 @@
 
 Esta documentación es una guía para el desarrollo con **Vtex IO**
 
-[Lineamientos desarrollo](#lineamientos-de-desarrollo)
+[Lineamientos desarrollo](#lineamientos-de-desarrollo)  
 [Recursos necesarios](#recursos-necesarios)  
 [Guía](#gu%C3%ADa)  
 [Vtex Cli](#vtex-cli)  
@@ -28,7 +28,7 @@ Referirse a [GitFlow](http://aprendegit.com/que-es-git-flow/)
 ### Recomendaciones merge Develop / Master
 - Los pasos a Develop requieren de un Pull Request para la respectiva revisión par.
 - Mantener las ramas de desarrollo actualizadas antes de realizar merge contra Develop/Master, por lo tanto debe constanemente revisarse cambios que se estén realizando sobre la rama a la cual se pasarán los cambios.
-- Los warnings por errores de typescript deben estar corregidos antes de pasar los cambios a develop/master.
+- Los warnings por errores de typescript deben estar corregidos antes de pasar los cambios a develop/master. De esta forma el comando vtex link -u que permite enlazar el proyecto contra el workspace de trabajo, solo es permitido para efectos de agilizar las pruebas de concepto del desarrollo que se esté llevando a cabo.
 
 ### Versiones
 Seguir el estándar de Semantic Versioning [ver aquí](https://docs.npmjs.com/about-semantic-versioning)
