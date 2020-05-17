@@ -13,11 +13,29 @@
 
 Esta documentación es una guía para el desarrollo con **Vtex IO**
 
+[Lineamientos desarrollo](#lineamientos-de-desarrollo)
 [Recursos necesarios](#recursos-necesarios)  
 [Guía](#gu%C3%ADa)  
 [Vtex Cli](#vtex-cli)  
 [Trabajando con Vtex + React](#trabajando-con-vtex-y-react)  
 [Integración continua](#integraci%C3%B3n-continua)
+
+## Lineamientos de Desarrollo
+
+### Estándar de manejo de Git
+Referirse a [GitFlow](http://aprendegit.com/que-es-git-flow/)
+
+### Recomendaciones merge Develop / Master
+- Los pasos a Develop requieren de un Pull Request para la respectiva revisión par.
+- Mantener las ramas de desarrollo actualizadas antes de realizar merge contra Develop/Master, por lo tanto debe constanemente revisarse cambios que se estén realizando sobre la rama a la cual se pasarán los cambios.
+- Los warnings por errores de typescript deben estar corregidos antes de pasar los cambios a develop/master.
+
+### Versiones
+Seguir el estándar de Semantic Versioning [ver aquí](https://docs.npmjs.com/about-semantic-versioning)
+
+### Publicación del store y componentes hijos
+El vendor para el proyecto de store corresponde con la cuenta específica: exito, exitocol, carulla, carullaqa
+Para el resto de componentes siempre se usa exito. Esto mientras los componentes puedan ser comunes entre cuentas.
 
 ## Recursos necesarios
 
