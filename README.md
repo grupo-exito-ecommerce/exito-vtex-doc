@@ -37,6 +37,15 @@ Seguir el estándar de Semantic Versioning [ver aquí](https://docs.npmjs.com/ab
 El vendor para el proyecto de store corresponde con la cuenta específica: exito, exitocol, carulla, carullaqa
 Para el resto de componentes siempre se usa exito. Esto mientras los componentes puedan ser comunes entre cuentas.
 
+### Lineamientos de aplicación de estilos en VTEXIO
+Los estilos sobre los componentes en VTEXIO basados en la estructura HTML como div, p, section, html, e.g. div > div > span[foo="bar"], han sido deprecados. En lugar de eso, debe utilizarse el concepto de "CSS Handles" de VTEX para la aplicación de estilos CSS. Adicionalmente, para facilitar la detección de CSS Handles utilizados en algún elemento en una sección en VTEXIO, se ha puesto a disposición el parámetro ?__inspect
+
+- Mayor detalle sobre cómo utilizar CSS Handles y el parámetro ?__inspect [aquí](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization/)
+
+- Anuncio sobre los cambios en los lineamientos de aplicación de CSS [aquí](https://vtex.io/docs/releases/2019-week-43-44/css-selectors-deprecation/)
+
+
+
 ## Recursos necesarios
 
 1.  [Node js](https://nodejs.org/es/)
